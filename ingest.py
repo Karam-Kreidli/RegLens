@@ -27,13 +27,16 @@ HEADER_PATTERNS = [
     ),
     # H2: "المادة الأولى", "المادة الحادية عشرة" (ordinal words kept as article_no)
     re.compile(r"^\s*(?:المادة|مادة)\s+([^\s:\-–—.]+(?:\s+عشرة?)?)\s*(?:[-–—:.]\s*)?(.*)$"),
-    # H3: "ADR.OR.C.020 Continued validity", "AMC1 ADR.OR.C.010(j) Application", "GM1 ADR.OR.C.040 ...",
-    #     "M.A.302 Maintenance programme", "4.7 Safety Management System (SMS)"
+    # H3: EASA/GCAA code headers: "ADR.OR.C.020 Continued validity", "AMC1 ADR.OR.C.010(j) Application",
+    #     "CS ADR-DSN.B.060 longitudinal slopes", "GM1 CS ADR-DSN.M.645 ...", "GM.ADR-DSN.M.640 ...", "ACM.OPS.CERT.D.005(a) ..."
     re.compile(
-        r"^\s*((?:(?:AMC|GM|CS)\d*\s+)?(?:[A-Z]{1,4}\.)+\d+(?:\.[A-Z0-9]+)*(?:\([a-z0-9]+\))*"
-        r"|\d+(?:\.\d+)+)\s+(\S.{0,150})$"
+        r"^\s*((?:(?:AMC|GM|CS)\d*[\s.]+){0,2}[A-Z]{2,4}(?:[.\-][A-Z]{1,5})*\.[A-Z]?\d{1,3}[A-Z]?(?:\.[A-Z0-9]+)*"
+        r"(?:\([a-z0-9]+\))*)\s+(\S.{0,150})$"
     ),
+    # H4: "M.A.302 Maintenance programme", "4.7 Safety Management System (SMS)" (disabled in code-style documents)
+    re.compile(r"^\s*((?:[A-Z]{1,4}\.)+\d+(?:\.[A-Z0-9]+)*|\d+(?:\.\d+)+)\s+(\S.{0,150})$"),
 ]
+SECTION_LINE = re.compile(r"^\s*SECTION\s+([A-Z0-9]{1,3})\s*[–—-]\s*(\S.{2,120})$")
 
 DEF_RE = re.compile(r"(definition|interpretation|تعريف|تعاريف|التعاريف|معاني)", re.I)
 ARABIC_LETTER = re.compile(r"[\u0600-\u06FF]")
@@ -173,12 +176,14 @@ def _match_header(line, patterns):
             title = (m.group(2) if m.lastindex and m.lastindex >= 2 else "") or ""
             # A sentence that merely starts with "Article 5 of this ..." is not a header.
             t = title.strip()
-            if t and (t[0].islower() or re.match(r"^(of|from|in|to|and|or|من|في|الى|إلى|و)\s", t)):
+            if re.match(r"^(of|from|in|to|and|or|can|is|are|shall|should|may|apply|applies|من|في|الى|إلى|و)\b", t, re.I):
+                continue
+            if t and t[0].islower() and p is not HEADER_PATTERNS[2]:
                 continue
             if p is HEADER_PATTERNS[1] and len(line) > 80:
                 continue
             # H3 must contain a digit
-            if not re.search(r"\d", num) and p is HEADER_PATTERNS[2]:
+            if not re.search(r"\d", num) and p in HEADER_PATTERNS[2:]:
                 continue
             return num, title.strip()
     return None
@@ -267,9 +272,20 @@ def parse_file(path, regulation=None):
             return terms
     lines = _read_lines(path)
     patterns = _header_patterns()
+    if patterns is HEADER_PATTERNS:
+        code_heads = sum(1 for _, l in lines if HEADER_PATTERNS[2].match(l) and not TOC_LINE.search(l))
+        if code_heads >= 20:  # EASA-style document: "0.83 D and larger" is a table value, not a section
+            patterns = HEADER_PATTERNS[:3]
     arts, cur = [], None
     for page, line in lines:
         if TOC_LINE.search(line):
+            continue
+        sec = SECTION_LINE.match(line) if cur is not None else None
+        if sec:
+            parent = cur.get("parent", cur["article_no"])
+            cur = {"article_no": f"{parent} SECTION {sec.group(1)}", "title": sec.group(2).strip(),
+                   "lines": [], "page": page, "parent": parent}
+            arts.append(cur)
             continue
         h = _match_header(line, patterns)
         if h:

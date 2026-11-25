@@ -57,7 +57,7 @@ a{color:inherit}
 <p class="lead">GCAA "Innovation Takes Flight" · RegLens. Repo: <a href="https://github.com/Karam-Kreidli/RegLens">github.com/Karam-Kreidli/RegLens</a>. Everyone pulls <code>main</code>, pastes their new brief, and builds against the real files.</p>
 
 <nav aria-label="Sections">
-<a href="#status">Status</a><a href="#data">Dataset</a><a href="#targets">Real targets</a><a href="#owners">Owners</a><a href="#merge">Merge rules</a><a href="#contract">Contract v2</a><a href="#p1">P1</a><a href="#p2">P2</a><a href="#p3">P3</a><a href="#p4">P4</a><a href="#p5">P5</a><a href="#humans">Human tasks</a>
+<a href="#status">Status</a><a href="#fixes">Fixes after merge</a><a href="#data">Dataset</a><a href="#targets">Real targets</a><a href="#owners">Owners</a><a href="#merge">Merge rules</a><a href="#contract">Contract v2</a><a href="#p1">P1</a><a href="#p2">P2</a><a href="#p3">P3</a><a href="#p4">P4</a><a href="#p5">P5</a><a href="#humans">Human tasks</a>
 </nav>
 
 <h2 id="status">Where we are</h2>
@@ -65,11 +65,37 @@ a{color:inherit}
 <thead><tr><th>Part</th><th>Status</th></tr></thead>
 <tbody>
 <tr><td>Repo scaffold</td><td>Done: <code>CONTRACT.md</code>, <code>README.md</code>, mock data, <code>docs/agent-briefs.html</code></td></tr>
-<tr><td>P1 · <code>ingest.py</code></td><td>Done, revised for the real GCAA formats: CAR-DEF glossary table, running headers and footers, tables of contents, EASA <code>ADR.OR.C.020</code> / <code>AMC1</code> / <code>GM1</code> headers, short regulation names. Tested on synthetic copies of each layout, <strong>not yet on the real PDFs</strong>.</td></tr>
+<tr><td>P1 · real data</td><td><strong>On main</strong> (<code>5905a7f</code>): 6 PDFs in <code>data/raw/</code>, plus <code>data/articles.json</code> with 3,390 articles: 1,479 CAR-DEF terms, CAR-BR Art. 1–20, and 1,890 CAR-AGA articles (Part-ADR, ACM, TRG, VFI). <code>check_ingest.py</code> passes apart from 3 minor warnings. CAR-ADR Issue 11 is not loaded.</td></tr>
+<tr><td>Full pipeline, real data</td><td>319 findings in 19 s, every quote verified: 89 duplicate requirements, 160 partial overlaps, 10 divergent and 6 duplicate definitions, 4 value conflicts, 50 unverifiable references. The app loads it all without errors.</td></tr>
 <tr><td>P1 · <code>run_pipeline.py</code>, <code>evaluate.py</code></td><td>Done and tested. The pipeline tolerates missing modules, removes duplicate findings and catches edited quotes.</td></tr>
-<tr><td>P2–P5 modules</td><td>Not in the repo yet. Each brief below replaces the Phase 1 brief.</td></tr>
+<tr><td>P3 · <code>detect_similarity.py</code></td><td>Merged (PR #1). Blocking v2 fixes pushed after the merge (commit <code>24d37c8</code>): the self-test passes, and the mock pipeline now gives all 5 expected P3 findings. Phase 2 work remains: see "Fixes after merge" and the P3 brief.</td></tr>
+<tr><td>P4 · <code>app.py</code></td><td>Merged (PR #2). Runs without errors on the merged pipeline output, and saving a review works. Phase 2 work remains.</td></tr>
+<tr><td>P2 · <code>detect_rules.py</code></td><td>Merged (PR #4). Passes on the mock data. On real data: the 4 value conflicts are noise (one lumps 23 unrelated articles under "general"), and 0 of 160 references resolve (EASA-style refs are not handled yet). See fixes 10–11.</td></tr>
+<tr><td>P5 · <code>ai_assist.py</code></td><td>PR #3 merged an <strong>empty file (0 bytes)</strong>. Nothing breaks (the app shows "module not available"), but there is no AI drafting or prompt library yet. See fix 12.</td></tr>
 </tbody>
 </table>
+
+<h2 id="fixes">Fixes after merging PRs #1–#4</h2>
+<p>Both PRs were written against contract v1 and merged into <code>main</code> on top of v2. I tested them together on the current <code>main</code>.</p>
+<table class="stack">
+<thead><tr><th>#</th><th>Fix</th><th>Owner</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>P3 could not see CAR-DEF glossary terms (the v2 format), so all ~1,440 real CAR-DEF terms were invisible. It now reads <code>extra.kind == "glossary_term"</code> as term = title, definition = text, and skips "See:" rows.</td><td>P3</td><td>Done, <code>24d37c8</code></td></tr>
+<tr><td>2</td><td>CAR-BR-style definitions <code>(18) ‘apron’ means …</code> were missed (no curly quotes) and cut at PDF line breaks. It now accepts ‘ ’ and keeps wrapped lines in one item. Checked on real CAR-BR wording: apron, apron management service (AMS) and aerodrome all match CAR-DEF.</td><td>P3</td><td>Done, <code>24d37c8</code></td></tr>
+<tr><td>3</td><td>The term key ignores trailing abbreviations ("Apron (APN)" = "apron") and PDF word splits ("operato r").</td><td>P3</td><td>Done, <code>24d37c8</code></td></tr>
+<tr><td>4</td><td>The self-test expected the v1 id <code>CAR-DEF|2</code>; it now uses <code>CAR-DEF|Operator</code> and <code>CAR-DEF|Occurrence</code>. 9/9 tests pass.</td><td>P3</td><td>Done, <code>24d37c8</code></td></tr>
+<tr><td>5</td><td>Definition severity should follow the 3 similarity bands in the P3 brief (A4). Today every divergent definition is "high" with harmonize_wording, even near-matches such as "aerodrome" (0.75).</td><td>P3</td><td>To do</td></tr>
+<tr><td>6</td><td>Shall vs should, <code>coverage.json</code>, top-3 matches per article, <code>max_findings_per_type</code>, <code>--stats</code> (P3 brief B and C)</td><td>P3</td><td>To do</td></tr>
+<tr><td>7</td><td>Display ids: the app shows <code>CAR-DEF · Art. Apron (APN)</code>; it should be <code>CAR-DEF · term “Apron (APN)”</code>, <code>CAR-ADR · §4.7</code> and <code>CAR-AGA-PART-ADR · ADR.OR.C.020</code> (P4 brief, point 1).</td><td>P4</td><td>To do</td></tr>
+<tr><td>8</td><td>Replace <code>use_container_width=True</code> with <code>width="stretch"</code>: Streamlit prints deprecation warnings on every run.</td><td>P4</td><td>To do (2 minutes)</td></tr>
+<tr><td>9</td><td>Overview tab, demo pins, pagination, glossary-aware detail, highlighting of shall/should (P4 brief, points 2–6)</td><td>P4</td><td>To do</td></tr>
+<tr><td>10</td><td>Value conflicts on real data are noise. Skip the object "general", compare only within the same (topic, object, unit) across regulations, skip AIRAC sentences, and add the aerodrome objects (P2 brief section 2).</td><td>P2</td><td>To do, first</td></tr>
+<tr><td>11</td><td>References: resolve EASA-style refs (<code>ADR.OR.C.020</code>, <code>AMC1 …</code>) against the loaded CAR-AGA articles, treat "CAR AGA PART ADR" as the regulation <code>CAR-AGA-PART-ADR</code>, and detect "Civil Aviation Regulation Part IX" (test: <code>CAR-DEF|Aerodrome certificate</code>). The real unverifiable targets today are CAR-SMS (12), CAR-ANS (12), CAR-ASP (6), CAR-OCR (4), CAR-AIR (4): correct, since those are not loaded (P2 brief section 3).</td><td>P2</td><td>To do</td></tr>
+<tr><td>12</td><td>Push the real <code>ai_assist.py</code> and <code>prompts/</code>. Main has a 0-byte file from PR #3.</td><td>P5</td><td>To do, urgent</td></tr>
+<tr><td>13</td><td>Divergent definitions with near-zero similarity are often not definitions at all: e.g. TRG "the generic term ‘aerodrome’ refers to…" (0.02). Require "means / refers to" at the start of the item, or mark these low.</td><td>P3</td><td>To do</td></tr>
+</tbody>
+</table>
+<p class="note">Before you continue: <code>git pull --rebase</code>. P3, your file changed after your PR: pull first so you build on <code>24d37c8</code>.</p>
 <div class="changed">
 <p><strong>What changed in contract v2</strong> (re-paste it into your agent):</p>
 <ol>
@@ -95,7 +121,19 @@ a{color:inherit}
 <p class="note">Optional later: CAR-AGA PART-ACM, PART-TRG, PART-VFI (same sub-folder). Don't load CAR ADR Issue 10 or CAR-BR Issue 01 next to their newer issues: two issues of the same regulation would flood the results.</p>
 
 <h2 id="targets">Real cases to aim the demo at</h2>
-<p>I found these by reading the extracted text of the four PDFs. They are candidates for the tool to surface, not conclusions; the GCAA expert decides.</p>
+<p><strong>Already found by the tool on the real data</strong> (first full run, quotes verified):</p>
+<table class="stack">
+<thead><tr><th>Finding</th><th>Articles</th><th>Score</th></tr></thead>
+<tbody>
+<tr><td>CAR-BR ‘apron’ repeats CAR-DEF "Apron (APN)"</td><td><code>CAR-BR|3</code> · <code>CAR-DEF|Apron (APN)</code></td><td class="n">0.82</td></tr>
+<tr><td>CAR-BR ‘aircraft’ repeats CAR-DEF "Aircraft (ACFT)"</td><td><code>CAR-BR|3</code> · <code>CAR-DEF|Aircraft (ACFT)</code></td><td class="n">0.87</td></tr>
+<tr><td>CAR-AGA "Aerodrome Identification Sign" is word for word CAR-DEF</td><td><code>CAR-AGA-PART-ADR|ADR.DEF.A.005</code> · <code>CAR-DEF|Aerodrome identification sign</code></td><td class="n">1.00</td></tr>
+<tr><td>CAR-BR ‘aerodrome’ worded differently from CAR-DEF</td><td><code>CAR-BR|3</code> · <code>CAR-DEF|Aerodrome (AD)</code></td><td class="n">0.71</td></tr>
+<tr><td>Airfield work permit system repeated</td><td><code>CAR-AGA-PART-ACM|ACM.OPS.CERT.G.005</code> · <code>CAR-AGA-PART-ADR|ADR.OPS.B.070</code></td><td class="n">0.87</td></tr>
+<tr><td>Overlapping requirements by pair: Part-ADR ↔ Part-VFI 183, ACM ↔ TRG 25, ACM ↔ ADR 18, ACM ↔ VFI 17</td><td>the headline number for the pitch</td><td></td></tr>
+</tbody>
+</table>
+<p>From reading the PDFs (candidates, not conclusions; the GCAA expert decides). The shall/should case needs CAR-ADR Issue 11, which is not loaded yet:</p>
 <table class="stack">
 <thead><tr><th>Case</th><th>Where</th><th>Why it matters</th><th>Owner</th></tr></thead>
 <tbody>
@@ -292,7 +330,9 @@ FIXTURE data/mock_findings.json (fictional, for UI/AI testing only; already in t
 === END CONTRACT ===`;
 
 const BRIEFS = [
-{id:'p1', name:'P1 · Real data in, merge (Karam)', files:'ingest.py, run_pipeline.py, evaluate.py, requirements.txt, data/', text:String.raw`YOUR ROLE: P1 (Phase 2). ingest.py, run_pipeline.py and evaluate.py are already in the repo and tested on mock and synthetic data. Your job now is to get the REAL data in and verified, then run the merge.
+{id:'p1', name:'P1 · Real data in, merge (Karam)', files:'ingest.py, run_pipeline.py, evaluate.py, requirements.txt, data/', text:String.raw`YOUR ROLE: P1 (Phase 2). STATUS: steps 1-4 are DONE on main (5905a7f): 6 PDFs in data/raw, 3,390 articles, check_ingest.py passes apart from 3 minor warnings. Remaining: optionally add CAR ADR- AERODROMES - ISSUE 11.pdf (needed for the shall/should case), then step 5 (merge runs, config.json) and the expert labels.
+
+Original brief: ingest.py, run_pipeline.py and evaluate.py are already in the repo and tested on mock and synthetic data. Your job now is to get the REAL data in and verified, then run the merge.
 
 1) Get the files (from a browser; the GCAA site may block scripted downloads)
    https://www.gcaa.gov.ae/en/epublication/civil-aviation-regulations/ (exact URL, no double slash)
@@ -330,7 +370,9 @@ const BRIEFS = [
    - Pass page numbers through for docx or txt inputs when available.
 
 ACCEPTANCE: articles.json pushed with all 4 regulations and every check in step 3 passed or its issue written down; python run_pipeline.py runs on the real data.`},
-{id:'p2', name:'P2 · Rule detectors on real text', files:'detect_rules.py', text:String.raw`YOUR ROLE: P2 (Phase 2). You own detect_rules.py. Keep everything from the Phase 1 spec (conflicting_values, references, icao_edition_issue, the mock self-test) and ADD the following for the real CAR I + CAR IX text. Standard library only.
+{id:'p2', name:'P2 · Rule detectors on real text', files:'detect_rules.py', text:String.raw`YOUR ROLE: P2 (Phase 2). You own detect_rules.py. Your PR #4 is merged. Real data is now on main (data/articles.json, 3,390 articles): git pull --rebase. Real-data results of your current code: the 4 conflicting_values findings are noise (e.g. "General reporting" lumping 23 unrelated articles), and 0 of 160 references resolve because CAR-AGA cites rules EASA-style (ADR.OR.C.020) and as "CAR AGA PART ADR". Do section 2 (values) and section 3 (references) below first; ICAO last.
+
+Keep everything from the Phase 1 spec (conflicting_values, references, icao_edition_issue, the mock self-test) and ADD the following for the real CAR I + CAR IX text. Standard library only.
 
 1) Pre-processing (real PDFs break lines mid-sentence)
    Before splitting sentences, join lines: replace "\n" with " " unless the next line starts a list item: ^\s*(\([a-z0-9]{1,3}\)|\d+\.|[-•]) . Then split sentences as in the contract.
@@ -367,7 +409,9 @@ ACCEPTANCE: articles.json pushed with all 4 regulations and every check in step 
    Read them. If more than 1 in 5 is wrong, tighten the keywords or the patterns. Report the counts and your precision estimate to the lead.
 
 ACCEPTANCE: the mock self-test still passes; on real data you produce at least the "Part IX" reference finding for CAR-DEF|Aerodrome certificate, EASA-reference checks for CAR-AGA-PART-ADR, and a short precision note.`},
-{id:'p3', name:'P3 · Definitions and similarity on real text', files:'detect_similarity.py', text:String.raw`YOUR ROLE: P3 (Phase 2). You own detect_similarity.py. Keep the Phase 1 spec (definitions vs CAR-DEF, duplicate and overlapping requirements, similar_pairs, term_index, the mock self-test) and ADD the following. You produce the two strongest demo cases, so prioritize A and C.
+{id:'p3', name:'P3 · Definitions and similarity on real text', files:'detect_similarity.py', text:String.raw`YOUR ROLE: P3 (Phase 2). You own detect_similarity.py. Your PR #1 is merged, and the lead pushed a follow-up fix (commit 24d37c8): it reads CAR-DEF glossary terms, accepts ‘curly’ quotes, keeps wrapped definition lines together, and makes the term key ignore abbreviations and PDF word splits. Run git pull --rebase FIRST, then check that python detect_similarity.py --test passes (9/9). Items A1, A2 and A3 below are therefore DONE; start at A4.
+
+Keep the Phase 1 spec (definitions vs CAR-DEF, duplicate and overlapping requirements, similar_pairs, term_index, the mock self-test) and ADD the following. You produce the two strongest demo cases, so prioritize A and C.
 
 A) Definitions with the real formats
    1. CAR-DEF articles with extra.kind == "glossary_term": term = title, definition = text. No regex.
@@ -411,7 +455,9 @@ D) Real-data check
    Tune the thresholds so the top 20 are mostly true; tell the lead the values for config.json.
 
 ACCEPTANCE: the mock self-test still passes; on real data the apron definition case and the vacancy shall/should case appear; coverage.json is written; runtime under 2 minutes on a laptop.`},
-{id:'p4', name:'P4 · Review app for real data', files:'app.py', text:String.raw`YOUR ROLE: P4 (Phase 2). You own app.py. Keep the Phase 1 spec (findings table, side-by-side detail with highlighted quotes, expert review saved to reviews.json, AI draft button, impact, terms, draft check, evaluation, Excel and CSV export, never crash) and ADD the following for real data (about 5,000 articles; hundreds of findings).
+{id:'p4', name:'P4 · Review app for real data', files:'app.py', text:String.raw`YOUR ROLE: P4 (Phase 2). You own app.py. Your PR #2 is merged and works with the merged pipeline output. Run git pull --rebase first. Quick fix before the rest: replace every use_container_width=True with width="stretch" (Streamlit deprecation warnings). Today a glossary id shows as "CAR-DEF · Art. Apron (APN)"; point 1 below fixes that.
+
+Keep the Phase 1 spec (findings table, side-by-side detail with highlighted quotes, expert review saved to reviews.json, AI draft button, impact, terms, draft check, evaluation, Excel and CSV export, never crash) and ADD the following for real data (about 5,000 articles; hundreds of findings).
 
 1) Display ids (one helper, used everywhere)
    glossary term (extra.kind == "glossary_term") -> CAR-DEF · term “Apron (APN)”
@@ -447,7 +493,9 @@ ACCEPTANCE: the mock self-test still passes; on real data the apron definition c
    Excel sheet "Findings" gets display ids (point 1), the GCAA source file and the page. Add a sheet "Overview" with the matrix from point 3.
 
 ACCEPTANCE: works on the mock and on the real data/articles.json + findings.json without errors; the Overview tab loads in under 3 seconds; pinned findings open from the Demo tab.`},
-{id:'p5', name:'P5 · AI assist and prompts with GCAA rules', files:'ai_assist.py, prompts/', text:String.raw`YOUR ROLE: P5 (Phase 2). You own ai_assist.py and prompts/. Keep the Phase 1 spec (verify_quotes, build_prompt, draft() that never raises, the prompt library and README, examples) and ADD the following.
+{id:'p5', name:'P5 · AI assist and prompts with GCAA rules', files:'ai_assist.py, prompts/', text:String.raw`YOUR ROLE: P5 (Phase 2). You own ai_assist.py and prompts/. URGENT: your PR #3 merged an EMPTY ai_assist.py (0 bytes) and no prompts/. Push your real files now: build the Phase 1 functions first (verify_quotes, build_prompt, draft that never raises, the prompts and README), then the Phase 2 additions below. Real data is on main: git pull --rebase.
+
+Keep the Phase 1 spec (verify_quotes, build_prompt, draft() that never raises, the prompt library and README, examples) and ADD the following.
 
 1) Put GCAA's real rules into every relevant prompt (from CAR-DEF's own introduction)
    - Lookup order for a definition: the specific publication -> its cover regulation -> CAR-BR -> CAR-DEF.
