@@ -189,6 +189,11 @@ def _match_header(line, patterns):
     return None
 
 
+_SRC_TOK = r"(?:AN\s?\d{1,2}(?:/[IVX]+)?|ATM|PANS-[A-Z]+(?:/[IVX]+)?|OPS/[IVX]+|\d{1,2}/[IVX]+)"
+SRC_BLEED_MID = re.compile(rf"(?<=\s)(?<!to )(?<!in )(?<!of )(?<!per )(?<!see )(?<!AN ){_SRC_TOK}(?:\s*,\s*{_SRC_TOK})*\s*,?\s+(?=[a-z(])")
+SRC_BLEED_END = re.compile(rf"\s+{_SRC_TOK}(?:\s*,\s*{_SRC_TOK})*\s*,?\s*$")
+
+
 def parse_def_table(path, reg, term_max_x=170, def_max_x=520):
     """CAR-DEF is a 3-column table (term | definition | ICAO source). One Article per term:
     article_no = title = term, text = definition, extra.icao_source = source column."""
@@ -250,6 +255,16 @@ def parse_def_table(path, reg, term_max_x=170, def_max_x=520):
     for r in rows:
         term = re.sub(r"\s+", " ", " ".join(r["lines"])).strip()
         definition = lead_src.sub("", re.sub(r"\s+", " ", " ".join(r["d"])).strip())
+        # Source-column codes that bled into the definition ("parking or AN14/I, maintenance.") move to the source.
+        bled = []
+        def _move(m):
+            bled.append(m.group(0).strip(" ,"))
+            return " "
+        definition = SRC_BLEED_MID.sub(_move, definition)
+        definition = SRC_BLEED_END.sub(lambda m: (bled.append(m.group(0).strip(" ,")), "")[1], definition)
+        definition = re.sub(r"\s{2,}", " ", definition).strip().lstrip(",; ").strip()
+        if bled:
+            r["s"] = r["s"] + bled
         if not definition or len(term) > 90 or len(term) < 2:
             continue
         seen[term] += 1

@@ -21385,13 +21385,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Accelerate-Stop Distance Available (ASDA)",
   "title": "Accelerate-Stop Distance Available (ASDA)",
-  "text": "The length of the take-off run available plus the length of the stopway, if AN6, provided.",
+  "text": "The length of the take-off run available plus the length of the stopway, if provided.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 4,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/I",
+   "icao_source": "AN14/I AN6",
    "kind": "glossary_term"
   }
  },
@@ -21460,13 +21460,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Accident (ACCID)",
   "title": "Accident (ACCID)",
-  "text": "— being in the aircraft, or — direct contact with any part of the aircraft, including parts which have become detached from the aircraft, or — direct exposure to jet blast, except when the injuries are from natural causes, self-inflicted or AN11, inflicted by other persons, or when the injuries are to stowaways hiding outside the areas normally available to the passengers and crew; or b) the aircraft sustains damage or structural failure which: — adversely affects the structural strength, performance or flight characteristics of the aircraft, and — would normally require major repair or replacement of the affected component, except for engine failure or damage, when the damage is limited to a single engine, (including its cowlings or accessories), to propellers, wing tips, antennas, probes, vanes, tires, brakes, wheels, fairings, panels, landing gear doors, windscreens, the aircraft skin (such as small dents or puncture holes), or for minor damages to main rotor blades, tail rotor blades, landing gear, and those resulting from hail or bird strike (including holes in the radome); or c) the aircraft is missing or is completely inaccessible. Note 1.— For statistical uniformity only, an injury resulting in death within thirty days of the date of the accident is classified, by ICAO, as a fatal injury. Note 2.— An aircraft is considered to be missing when the official search has been terminated and the wreckage has not been located. Note 3.— The type of unmanned aircraft system to be investigated is addressed in Annex 13, 5.1. Note 4.— Guidance for the determination of aircraft damage can be found in Annex 13, Attachment E.",
+  "text": "— being in the aircraft, or — direct contact with any part of the aircraft, including parts which have become detached from the aircraft, or — direct exposure to jet blast, except when the injuries are from natural causes, self-inflicted or inflicted by other persons, or when the injuries are to stowaways hiding outside the areas normally available to the passengers and crew; or b) the aircraft sustains damage or structural failure which: — adversely affects the structural strength, performance or flight characteristics of the aircraft, and — would normally require major repair or replacement of the affected component, except for engine failure or damage, when the damage is limited to a single engine, (including its cowlings or accessories), to propellers, wing tips, antennas, probes, vanes, tires, brakes, wheels, fairings, panels, landing gear doors, windscreens, the aircraft skin (such as small dents or puncture holes), or for minor damages to main rotor blades, tail rotor blades, landing gear, and those resulting from hail or bird strike (including holes in the radome); or c) the aircraft is missing or is completely inaccessible. Note 1.— For statistical uniformity only, an injury resulting in death within thirty days of the date of the accident is classified, by ICAO, as a fatal injury. Note 2.— An aircraft is considered to be missing when the official search has been terminated and the wreckage has not been located. Note 3.— The type of unmanned aircraft system to be investigated is addressed in Annex 13, 5.1. Note 4.— Guidance for the determination of aircraft damage can be found in Annex 13, Attachment E.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 4,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN13, AN19",
+   "icao_source": "AN13, AN19 AN11",
    "kind": "glossary_term"
   }
  },
@@ -21565,13 +21565,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Acts of unlawful interference",
   "title": "Acts of unlawful interference",
-  "text": "These are acts or attempted acts such as to jeopardize the safety of civil aviation, including but not limited to: • unlawful seizure of aircraft, • destruction of an aircraft in service, • hostage-taking on board aircraft or on aerodromes, • forcible intrusion on board an aircraft, at an airport or on the premises of an AN6/II, aeronautical facility, • introduction on board an aircraft or at an airport of a weapon or hazardous device or material intended for criminal purposes, • use of an aircraft in service for the purpose of causing death, serious bodily injury, or serious damage to property or the environment, • communication of false information such as to jeopardize the safety of an aircraft in flight or on the ground, of passengers, crew, ground personnel or the general public, at an airport or on the premises of a civil aviation facility.",
+  "text": "These are acts or attempted acts such as to jeopardize the safety of civil aviation, including but not limited to: • unlawful seizure of aircraft, • destruction of an aircraft in service, • hostage-taking on board aircraft or on aerodromes, • forcible intrusion on board an aircraft, at an airport or on the premises of an aeronautical facility, • introduction on board an aircraft or at an airport of a weapon or hazardous device or material intended for criminal purposes, • use of an aircraft in service for the purpose of causing death, serious bodily injury, or serious damage to property or the environment, • communication of false information such as to jeopardize the safety of an aircraft in flight or on the ground, of passengers, crew, ground personnel or the general public, at an airport or on the premises of a civil aviation facility.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 5,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN17",
+   "icao_source": "AN17 AN6/II",
    "kind": "glossary_term"
   }
  },
@@ -21715,13 +21715,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aerial Work (AW)",
   "title": "Aerial Work (AW)",
-  "text": "An aircraft operation in which an aircraft is used for specialized services such as agriculture, construction, photography, surveying, observation and patrol, search and rescue, aerial advertisement, etc. AN6/III,",
+  "text": "An aircraft operation in which an aircraft is used for specialized services such as agriculture, construction, photography, surveying, observation and patrol, search and rescue, aerial advertisement, etc.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 6,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/I, AN6/II, AN17",
+   "icao_source": "AN6/I, AN6/II, AN17 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -21745,13 +21745,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aerodrome (AD)",
   "title": "Aerodrome (AD)",
-  "text": "A defined area on land or water (including any buildings, installations and AN6/II, equipment) intended to be used either wholly or in part for the arrival, departure and surface movement of aircraft.",
+  "text": "A defined area on land or water (including any buildings, installations and equipment) intended to be used either wholly or in part for the arrival, departure and surface movement of aircraft.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 6,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN3, AN4, AN6/I, AN11, AN14/I, AN15, AN16/IV, ATM",
+   "icao_source": "AN2, AN3, AN4, AN6/I, AN11, AN14/I, AN15, AN16/IV, ATM AN6/II",
    "kind": "glossary_term"
   }
  },
@@ -21865,13 +21865,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aerodrome elevation",
   "title": "Aerodrome elevation",
-  "text": "The elevation of the highest point of the landing area. AN14/I, OPS/I,",
+  "text": "The elevation of the highest point of the landing area.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 7,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN3, AN4, ATM, OPS/II",
+   "icao_source": "AN3, AN4, ATM, OPS/II AN14/I, OPS/I",
    "kind": "glossary_term"
   }
  },
@@ -21895,13 +21895,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aerodrome mapping data (AMD)",
   "title": "Aerodrome mapping data (AMD)",
-  "text": "Data collected for the purpose of compiling aerodrome mapping information AN14/I, for aeronautical uses. Note.— Aerodrome mapping data are collected for purposes that include the improvement of the user’s situational awareness, surface navigation operations, training, charting and planning.",
+  "text": "Data collected for the purpose of compiling aerodrome mapping information for aeronautical uses. Note.— Aerodrome mapping data are collected for purposes that include the improvement of the user’s situational awareness, surface navigation operations, training, charting and planning.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 7,
   "is_definitions": true,
   "extra": {
-   "icao_source": "",
+   "icao_source": "AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -21910,13 +21910,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aerodrome mapping database (AMDB)",
   "title": "Aerodrome mapping database (AMDB)",
-  "text": "A collection of aerodrome mapping data organized and arranged as a structured AN14/I, data set.",
+  "text": "A collection of aerodrome mapping data organized and arranged as a structured data set.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 7,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN15",
+   "icao_source": "AN15 AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -22000,13 +22000,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aerodrome Reference Point (ARP)",
   "title": "Aerodrome Reference Point (ARP)",
-  "text": "The designated geographical location of an aerodrome. AN4,",
+  "text": "The designated geographical location of an aerodrome.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 8,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/I",
+   "icao_source": "AN14/I AN4",
    "kind": "glossary_term"
   }
  },
@@ -22195,13 +22195,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aeronautical Fixed Service (AFS)",
   "title": "Aeronautical Fixed Service (AFS)",
-  "text": "A telecommunication service between specified fixed points provided primarily AN3, for the safety of air navigation and for the regular, efficient and economical AN11, operation of air services.",
+  "text": "A telecommunication service between specified fixed points provided primarily for the safety of air navigation and for the regular, efficient and economical operation of air services.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 9,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN10/II, AN15, ATM",
+   "icao_source": "AN10/II, AN15, ATM AN3 AN11",
    "kind": "glossary_term"
   }
  },
@@ -22210,13 +22210,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aeronautical fixed station",
   "title": "Aeronautical fixed station",
-  "text": "A station in the aeronautical fixed service. AN10/II,",
+  "text": "A station in the aeronautical fixed service.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 9,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM",
+   "icao_source": "ATM AN10/II",
    "kind": "glossary_term"
   }
  },
@@ -22225,13 +22225,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aeronautical Fixed Telecommunication Network (AFTN)",
   "title": "Aeronautical Fixed Telecommunication Network (AFTN)",
-  "text": "A worldwide system of aeronautical fixed circuits provided, as part of the aeronautical fixed service, for the exchange of messages and/or digital data AN3, between aeronautical fixed stations having the same or compatible communications characteristics.",
+  "text": "A worldwide system of aeronautical fixed circuits provided, as part of the aeronautical fixed service, for the exchange of messages and/or digital data between aeronautical fixed stations having the same or compatible communications characteristics.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 9,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN10/II",
+   "icao_source": "AN10/II AN3",
    "kind": "glossary_term"
   }
  },
@@ -22255,13 +22255,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aeronautical ground light",
   "title": "Aeronautical ground light",
-  "text": "Any light specially provided as an aid to air navigation, other than a light AN14/I, displayed on an aircraft.",
+  "text": "Any light specially provided as an aid to air navigation, other than a light displayed on an aircraft.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 9,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM",
+   "icao_source": "ATM AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -22390,13 +22390,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aeronautical mobile service (RR S1.32)",
   "title": "Aeronautical mobile service (RR S1.32)",
-  "text": "A mobile service between aeronautical stations and aircraft stations, or AN3, between aircraft stations, in which survival craft stations may participate; emergency position-indicating radio beacon stations may also participate in this",
+  "text": "A mobile service between aeronautical stations and aircraft stations, or between aircraft stations, in which survival craft stations may participate; emergency position-indicating radio beacon stations may also participate in this",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 9,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN10/II, AN11, ATM",
+   "icao_source": "AN10/II, AN11, ATM AN3",
    "kind": "glossary_term"
   }
  },
@@ -22495,13 +22495,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aeronautical station (RR S1.81)",
   "title": "Aeronautical station (RR S1.81)",
-  "text": "A land station in the aeronautical mobile service. In certain instances, an AN2, aeronautical station may be located, for example, on board ship or on a platform at sea.",
+  "text": "A land station in the aeronautical mobile service. In certain instances, an aeronautical station may be located, for example, on board ship or on a platform at sea.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 10,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN10/II, ATM",
+   "icao_source": "AN10/II, ATM AN2",
    "kind": "glossary_term"
   }
  },
@@ -22555,13 +22555,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aeronautical telecommunication service",
   "title": "Aeronautical telecommunication service",
-  "text": "A telecommunication service provided for any aeronautical purpose. AN10/II,",
+  "text": "A telecommunication service provided for any aeronautical purpose.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 10,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM",
+   "icao_source": "ATM AN10/II",
    "kind": "glossary_term"
   }
  },
@@ -22585,13 +22585,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aeroplane",
   "title": "Aeroplane",
-  "text": "A power-driven heavier-than-air aircraft, deriving its lift in flight chiefly from aerodynamic reactions on surfaces which remain fixed under given conditions of flight. AN6/II, AN8,",
+  "text": "A power-driven heavier-than-air aircraft, deriving its lift in flight chiefly from aerodynamic reactions on surfaces which remain fixed under given conditions of flight.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 10,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN1,AN 2, AN6/I, AN7, AN16/I, AN16/III, AN16/IV, AN19",
+   "icao_source": "AN1,AN 2, AN6/I, AN7, AN16/I, AN16/III, AN16/IV, AN19 AN6/II, AN8",
    "kind": "glossary_term"
   }
  },
@@ -22825,13 +22825,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Air Navigation Service Provider (ANSP)",
   "title": "Air Navigation Service Provider (ANSP)",
-  "text": "Any entity providing ATM and/or other air navigation services mentioned above",
+  "text": "Any entity providing and/or other air navigation services mentioned above",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 11,
   "is_definitions": true,
   "extra": {
-   "icao_source": "9161",
+   "icao_source": "9161 ATM",
    "kind": "glossary_term"
   }
  },
@@ -23080,13 +23080,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Air transit route",
   "title": "Air transit route",
-  "text": "A defined path on the surface established for the air transiting of helicopters. AN4,",
+  "text": "A defined path on the surface established for the air transiting of helicopters.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 13,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/II",
+   "icao_source": "AN14/II AN4",
    "kind": "glossary_term"
   }
  },
@@ -23530,13 +23530,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Aircraft stand taxilane",
   "title": "Aircraft stand taxilane",
-  "text": "A portion of an apron designated as a taxiway and intended to provide access to aircraft stands only. AN14/I,",
+  "text": "A portion of an apron designated as a taxiway and intended to provide access to aircraft stands only.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 15,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN4, ATM",
+   "icao_source": "AN2, AN4, ATM AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -23620,13 +23620,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Air-ground control radio station",
   "title": "Air-ground control radio station",
-  "text": "An aeronautical telecommunication station having primary responsibility for AN2, handling communications pertaining to the operation and control of aircraft in a given area.",
+  "text": "An aeronautical telecommunication station having primary responsibility for handling communications pertaining to the operation and control of aircraft in a given area.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 15,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN10/II, ATM",
+   "icao_source": "AN10/II, ATM AN2",
    "kind": "glossary_term"
   }
  },
@@ -23725,13 +23725,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Air-Report (AIREP/ ARP)",
   "title": "Air-Report (AIREP/ ARP)",
-  "text": "A report from an aircraft in flight prepared in conformity with requirements for AN3, position, and operational and/or meteorological reporting.",
+  "text": "A report from an aircraft in flight prepared in conformity with requirements for position, and operational and/or meteorological reporting.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 16,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN10/II, ATM",
+   "icao_source": "AN10/II, ATM AN3",
    "kind": "glossary_term"
   }
  },
@@ -23785,13 +23785,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Air-to-ground communication",
   "title": "Air-to-ground communication",
-  "text": "One-way communication from aircraft to stations or locations on the surface of the earth. AN10/II,",
+  "text": "One-way communication from aircraft to stations or locations on the surface of the earth.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 16,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM",
+   "icao_source": "ATM AN10/II",
    "kind": "glossary_term"
   }
  },
@@ -23815,13 +23815,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Airworthy",
   "title": "Airworthy",
-  "text": "The status of an aircraft, engine, propeller or part when it conforms to its approved design and is in a condition for safe operation. AN6/III,",
+  "text": "The status of an aircraft, engine, propeller or part when it conforms to its approved design and is in a condition for safe operation.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 16,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN1, AN2, AN4, AN11, ATM AN6/I, AN6/II, AN8",
+   "icao_source": "AN1, AN2, AN4, AN11, ATM AN6/I, AN6/II, AN8 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -23845,13 +23845,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Alert phase (ALERFA)",
   "title": "Alert phase (ALERFA)",
-  "text": "A situation wherein apprehension exists as to the safety of an aircraft and its AN11, occupants.",
+  "text": "A situation wherein apprehension exists as to the safety of an aircraft and its occupants.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 16,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN12, ATM",
+   "icao_source": "AN12, ATM AN11",
    "kind": "glossary_term"
   }
  },
@@ -23950,13 +23950,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Alternate Aerodrome (ALTN)",
   "title": "Alternate Aerodrome (ALTN)",
-  "text": "An aerodrome to which an aircraft may proceed when it becomes either impossible or inadvisable to proceed to or to land at the aerodrome of intended landing where the necessary services and facilities are available, where aircraft AN6/II, performance requirements can be met and which is operational at the expected time of use. Alternate aerodromes include the following: Take-off alternate. An alternate aerodrome at which an aircraft would be able to land should this become necessary shortly after take-off and it is not possible to use the aerodrome of departure. En-route alternate. An alternate aerodrome at which an aircraft would be able to land in the event that a diversion becomes necessary while en route. Destination alternate. An alternate aerodrome at which an aircraft would be able to land should it become either impossible or inadvisable to land at the aerodrome of intended landing. Note: The aerodrome from which a flight departs may also be an en-route or a destination alternate aerodrome for that flight.",
+  "text": "An aerodrome to which an aircraft may proceed when it becomes either impossible or inadvisable to proceed to or to land at the aerodrome of intended landing where the necessary services and facilities are available, where aircraft performance requirements can be met and which is operational at the expected time of use. Alternate aerodromes include the following: Take-off alternate. An alternate aerodrome at which an aircraft would be able to land should this become necessary shortly after take-off and it is not possible to use the aerodrome of departure. En-route alternate. An alternate aerodrome at which an aircraft would be able to land in the event that a diversion becomes necessary while en route. Destination alternate. An alternate aerodrome at which an aircraft would be able to land should it become either impossible or inadvisable to land at the aerodrome of intended landing. Note: The aerodrome from which a flight departs may also be an en-route or a destination alternate aerodrome for that flight.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 16,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN3, AN6/I, AN11",
+   "icao_source": "AN2, AN3, AN6/I, AN11 AN6/II",
    "kind": "glossary_term"
   }
  },
@@ -24010,13 +24010,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Altimetry System Error (ASE)",
   "title": "Altimetry System Error (ASE)",
-  "text": "The difference between the altitude indicated by the altimeter display, assuming a correct altimeter barometric setting, and the pressure altitude AN6/I, corresponding to the undisturbed ambient pressure.",
+  "text": "The difference between the altitude indicated by the altimeter display, assuming a correct altimeter barometric setting, and the pressure altitude corresponding to the undisturbed ambient pressure.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 17,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/II",
+   "icao_source": "AN6/II AN6/I",
    "kind": "glossary_term"
   }
  },
@@ -24055,13 +24055,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Angles of coverage",
   "title": "Angles of coverage",
-  "text": "a) Angle of coverage A is formed by two intersecting vertical planes making angles of 70 degrees to the right and 70 degrees to the left respectively, looking aft along the longitudinal axis to a vertical plane passing through the longitudinal axis. AN6/I, b) Angle of coverage F is formed by two intersecting vertical planes making angles of 110 degrees to the right and 110 degrees to the left respectively, looking forward along the longitudinal axis to a vertical plane passing through the longitudinal axis. c) Angle of coverage L is formed by two intersecting vertical planes, one parallel to the longitudinal axis of the aeroplane, and the other 110 degrees to the left of the first, when looking forward along the longitudinal axis. d) Angle of coverage R is formed by two intersecting vertical planes, one parallel to the longitudinal axis of the aeroplane, and the other 110 degrees to the right of the first, when looking forward along the longitudinal axis.",
+  "text": "a) Angle of coverage A is formed by two intersecting vertical planes making angles of 70 degrees to the right and 70 degrees to the left respectively, looking aft along the longitudinal axis to a vertical plane passing through the longitudinal axis. b) Angle of coverage F is formed by two intersecting vertical planes making angles of 110 degrees to the right and 110 degrees to the left respectively, looking forward along the longitudinal axis to a vertical plane passing through the longitudinal axis. c) Angle of coverage L is formed by two intersecting vertical planes, one parallel to the longitudinal axis of the aeroplane, and the other 110 degrees to the left of the first, when looking forward along the longitudinal axis. d) Angle of coverage R is formed by two intersecting vertical planes, one parallel to the longitudinal axis of the aeroplane, and the other 110 degrees to the right of the first, when looking forward along the longitudinal axis.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 17,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/II",
+   "icao_source": "AN6/II AN6/I",
    "kind": "glossary_term"
   }
  },
@@ -24280,13 +24280,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Appropriate airworthiness requirements",
   "title": "Appropriate airworthiness requirements",
-  "text": "The comprehensive and detailed airworthiness codes established, adopted or accepted by a Contracting State for the class of aircraft, engine or propeller under consideration. AN6/III,",
+  "text": "The comprehensive and detailed airworthiness codes established, adopted or accepted by a Contracting State for the class of aircraft, engine or propeller under consideration.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 20,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/I, AN6/II, AN8",
+   "icao_source": "AN6/I, AN6/II, AN8 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -24430,13 +24430,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Apron (APN)",
   "title": "Apron (APN)",
-  "text": "A defined area, on a land aerodrome, intended to accommodate aircraft for purposes of loading or unloading passengers, mail or cargo, fuelling, parking or AN14/I, maintenance.",
+  "text": "A defined area, on a land aerodrome, intended to accommodate aircraft for purposes of loading or unloading passengers, mail or cargo, fuelling, parking or maintenance.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 20,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN4, AN11, ATM",
+   "icao_source": "AN2, AN4, AN11, ATM AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -24445,13 +24445,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Apron management service",
   "title": "Apron management service",
-  "text": "A service provided to regulate the activities and the movement of aircraft and AN11, vehicles on an apron.",
+  "text": "A service provided to regulate the activities and the movement of aircraft and vehicles on an apron.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 21,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/I",
+   "icao_source": "AN14/I AN11",
    "kind": "glossary_term"
   }
  },
@@ -24460,13 +24460,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Apron taxiway",
   "title": "Apron taxiway",
-  "text": "A portion of a taxiway system located on an apron and intended to provide a through taxi route across the apron. AN14/I,",
+  "text": "A portion of a taxiway system located on an apron and intended to provide a through taxi route across the apron.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 21,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN4, ATM",
+   "icao_source": "AN2, AN4, ATM AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -24520,13 +24520,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Area Navigation (RNAV)",
   "title": "Area Navigation (RNAV)",
-  "text": "A method of navigation which permits aircraft operation on any desired flight path within the coverage of ground- or space-based navigation aids or within the limits of the capability of self-contained aids, or a combination of these. NOTE: Area navigation includes performance-based navigation as well as other AN11, operations that do not meet the definition of performance-based navigation.",
+  "text": "A method of navigation which permits aircraft operation on any desired flight path within the coverage of ground- or space-based navigation aids or within the limits of the capability of self-contained aids, or a combination of these. NOTE: Area navigation includes performance-based navigation as well as other operations that do not meet the definition of performance-based navigation.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 21,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN3, AN4, AN6/I, AN6/II, AN6/III, AN10/I, AN15, ATM, OPS/I, OPS/II",
+   "icao_source": "AN3, AN4, AN6/I, AN6/II, AN6/III, AN10/I, AN15, ATM, OPS/I, OPS/II AN11",
    "kind": "glossary_term"
   }
  },
@@ -24985,13 +24985,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Automatic deployable flight recorder (ADFR)",
   "title": "Automatic deployable flight recorder (ADFR)",
-  "text": "A combination flight recorder installed on the aircraft which is capable of automatically deploying from the aircraft. AN6/III,",
+  "text": "A combination flight recorder installed on the aircraft which is capable of automatically deploying from the aircraft.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 23,
   "is_definitions": true,
   "extra": {
-   "icao_source": "",
+   "icao_source": "AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -25060,13 +25060,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Automatic Terminal Information Service (ATIS)",
   "title": "Automatic Terminal Information Service (ATIS)",
-  "text": "The automatic provision of current, routine information to arriving and AN11, departing aircraft throughout 24 hours or a specified portion thereof.",
+  "text": "The automatic provision of current, routine information to arriving and departing aircraft throughout 24 hours or a specified portion thereof.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 24,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN10/III, AN15, ATM",
+   "icao_source": "AN10/III, AN15, ATM AN11",
    "kind": "glossary_term"
   }
  },
@@ -25270,13 +25270,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Base turn",
   "title": "Base turn",
-  "text": "A turn executed by the aircraft during the initial approach between the end of the outbound track and the beginning of the intermediate or final approach track. The tracks are not reciprocal. Note.— Base turns may be designated as being made either in level flight OPS/I, or while descending, according to the circumstances of each individual procedure.",
+  "text": "A turn executed by the aircraft during the initial approach between the end of the outbound track and the beginning of the intermediate or final approach track. The tracks are not reciprocal. Note.— Base turns may be designated as being made either in level flight or while descending, according to the circumstances of each individual procedure.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 24,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN11, ATM, OPS/II",
+   "icao_source": "AN11, ATM, OPS/II OPS/I",
    "kind": "glossary_term"
   }
  },
@@ -25345,13 +25345,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Blind transmission",
   "title": "Blind transmission",
-  "text": "A transmission from one station to another station in circumstances where two- way communication cannot be established but where it is believed that the AN10/II, called station is able to receive the transmission.",
+  "text": "A transmission from one station to another station in circumstances where two- way communication cannot be established but where it is believed that the called station is able to receive the transmission.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 25,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM",
+   "icao_source": "ATM AN10/II",
    "kind": "glossary_term"
   }
  },
@@ -26275,13 +26275,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Clearway (CWY)",
   "title": "Clearway (CWY)",
-  "text": "A defined rectangular area on the ground or water under the control of the appropriate authority, selected or prepared as a suitable area over which an AN4, aeroplane may make a portion of its initial climb to a specified height.",
+  "text": "A defined rectangular area on the ground or water under the control of the appropriate authority, selected or prepared as a suitable area over which an aeroplane may make a portion of its initial climb to a specified height.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 29,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/I",
+   "icao_source": "AN14/I AN4",
    "kind": "glossary_term"
   }
  },
@@ -26665,13 +26665,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Computer",
   "title": "Computer",
-  "text": "A device which performs sequences of arithmetical and logical steps upon data AN6/III, without human intervention.",
+  "text": "A device which performs sequences of arithmetical and logical steps upon data without human intervention.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 30,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM",
+   "icao_source": "ATM AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -26920,13 +26920,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Continuing airworthiness",
   "title": "Continuing airworthiness",
-  "text": "The set of processes by which an aircraft, engine, propeller or part complies with the applicable airworthiness requirements and remains in a condition for safe operation throughout its operating life. AN6/III,",
+  "text": "The set of processes by which an aircraft, engine, propeller or part complies with the applicable airworthiness requirements and remains in a condition for safe operation throughout its operating life.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 32,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/I, AN6/II, AN8",
+   "icao_source": "AN6/I, AN6/II, AN8 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -27100,7 +27100,7 @@
   "regulation": "CAR-DEF",
   "article_no": "Controlled flight",
   "title": "Controlled flight",
-  "text": ", Any flight which is subject to an air traffic control clearance.",
+  "text": "Any flight which is subject to an air traffic control clearance.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 32,
@@ -27115,13 +27115,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Controller-Pilot Data Link Communications (CPDLC)",
   "title": "Controller-Pilot Data Link Communications (CPDLC)",
-  "text": "A means of communication between controller and pilot, using data link for ATC communications. AN11,",
+  "text": "A means of communication between controller and pilot, using data link for ATC communications.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 32,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN11, ATM AN10/II, AN10/III, AN15, ATM",
+   "icao_source": "AN2, AN11, ATM AN10/II, AN10/III, AN15, ATM AN11",
    "kind": "glossary_term"
   }
  },
@@ -27355,13 +27355,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Crew member-2",
   "title": "Crew member",
-  "text": "A person assigned by an operator to duty on an aircraft during a flight AN6/III, duty period.",
+  "text": "A person assigned by an operator to duty on an aircraft during a flight duty period.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 33,
   "is_definitions": true,
   "extra": {
-   "icao_source": "(EU) No 965/2012 operations AN6/I, AN9, AN18",
+   "icao_source": "(EU) No 965/2012 operations AN6/I, AN9, AN18 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -27505,13 +27505,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Cruising level",
   "title": "Cruising level",
-  "text": "A level maintained during a significant portion of a flight. AN6/I,",
+  "text": "A level maintained during a significant portion of a flight.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 34,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN3, AN11, ATM",
+   "icao_source": "AN2, AN3, AN11, ATM AN6/I",
    "kind": "glossary_term"
   }
  },
@@ -27535,13 +27535,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Current Data Authority (CDA)",
   "title": "Current Data Authority (CDA)",
-  "text": "The designated ground system through which a CPDLC dialogue between a pilot AN10/II, and a controller currently responsible for the flight is permitted to take place.",
+  "text": "The designated ground system through which a CPDLC dialogue between a pilot and a controller currently responsible for the flight is permitted to take place.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 34,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM",
+   "icao_source": "ATM AN10/II",
    "kind": "glossary_term"
   }
  },
@@ -27655,13 +27655,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Data Accuracy",
   "title": "Data Accuracy",
-  "text": "See: System accuracy. A degree of conformance between the estimated or measured value and the AN14/I, true value.",
+  "text": "See: System accuracy. A degree of conformance between the estimated or measured value and the true value.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 35,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN11, AN15",
+   "icao_source": "AN11, AN15 AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -27715,13 +27715,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Data integrity (assurance level)",
   "title": "Data integrity (assurance level)",
-  "text": "A degree of assurance that an aeronautical data and its value has not been lost or altered since the origination or authorized amendment. AN14/I,",
+  "text": "A degree of assurance that an aeronautical data and its value has not been lost or altered since the origination or authorized amendment.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 35,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN11, AN15",
+   "icao_source": "AN11, AN15 AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -27730,13 +27730,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Data link-Automatic Terminal Information Service (D-ATIS)",
   "title": "Data link-Automatic Terminal Information Service (D-ATIS)",
-  "text": "The provision of ATIS via data link. AN11,",
+  "text": "The provision of ATIS via data link.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 35,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN10/III, AN15, ATM",
+   "icao_source": "AN10/III, AN15, ATM AN11",
    "kind": "glossary_term"
   }
  },
@@ -28150,13 +28150,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Dependent parallel approaches",
   "title": "Dependent parallel approaches",
-  "text": "Simultaneous approaches to parallel or near-parallel instrument runways where AN14/I, radar separation minima between aircraft on adjacent extended runway centre OPS/I, lines are prescribed.",
+  "text": "Simultaneous approaches to parallel or near-parallel instrument runways where radar separation minima between aircraft on adjacent extended runway centre lines are prescribed.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 37,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM, OPS/II",
+   "icao_source": "ATM, OPS/II AN14/I OPS/I",
    "kind": "glossary_term"
   }
  },
@@ -28330,13 +28330,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Destination alternate",
   "title": "Destination alternate",
-  "text": "An alternate aerodrome to which an aircraft may proceed should it become either impossible or inadvisable to land at the aerodrome of intended landing. AN6/II,",
+  "text": "An alternate aerodrome to which an aircraft may proceed should it become either impossible or inadvisable to land at the aerodrome of intended landing.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 39,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN3, AN6/I, AN11, ATM",
+   "icao_source": "AN2, AN3, AN6/I, AN11, ATM AN6/II",
    "kind": "glossary_term"
   }
  },
@@ -28525,13 +28525,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Displaced Threshold (DTHR)",
   "title": "Displaced Threshold (DTHR)",
-  "text": "Displaced runway threshold A threshold not located at the extremity of a AN4, runway.",
+  "text": "Displaced runway threshold A threshold not located at the extremity of a runway.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 40,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/I",
+   "icao_source": "AN14/I AN4",
    "kind": "glossary_term"
   }
  },
@@ -28570,13 +28570,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Distress Phase (DETRESFA)",
   "title": "Distress Phase (DETRESFA)",
-  "text": "A situation wherein there is a reasonable certainty that an aircraft and its AN11, occupants are threatened by grave and imminent danger and require immediate assistance.",
+  "text": "A situation wherein there is a reasonable certainty that an aircraft and its occupants are threatened by grave and imminent danger and require immediate assistance.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 40,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN12, ATM",
+   "icao_source": "AN12, ATM AN11",
    "kind": "glossary_term"
   }
  },
@@ -29110,13 +29110,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Engine (ENG)",
   "title": "Engine (ENG)",
-  "text": "A unit used or intended to be used for aircraft propulsion. It consists of at least those components and equipment necessary for the functioning and control, but excludes the propeller (if applicable). AN6/III,",
+  "text": "A unit used or intended to be used for aircraft propulsion. It consists of at least those components and equipment necessary for the functioning and control, but excludes the propeller (if applicable).",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 42,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/I, AN6/II, AN8",
+   "icao_source": "AN6/I, AN6/II, AN8 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -29170,13 +29170,13 @@
   "regulation": "CAR-DEF",
   "article_no": "En-route alternate",
   "title": "En-route alternate",
-  "text": "An aerodrome at which an aircraft would be able to land after experiencing an abnormal or emergency condition while en route. AN6/II,",
+  "text": "An aerodrome at which an aircraft would be able to land after experiencing an abnormal or emergency condition while en route.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 42,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN3, AN6/I, AN11, ATM",
+   "icao_source": "AN2, AN3, AN6/I, AN11, ATM AN6/II",
    "kind": "glossary_term"
   }
  },
@@ -29725,13 +29725,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Fatigue Risk Management System (FRMS). Applicable 5 November 2020",
   "title": "Fatigue Risk Management System (FRMS). Applicable 5 November 2020",
-  "text": "A data-driven means of continuously monitoring and managing fatigue- related safety risks, based upon scientific principles and knowledge as well as operational experience that aims to ensure relevant personnel AN6/III, are performing at adequate levels of alertness.",
+  "text": "A data-driven means of continuously monitoring and managing fatigue- related safety risks, based upon scientific principles and knowledge as well as operational experience that aims to ensure relevant personnel are performing at adequate levels of alertness.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 45,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/I, AN11",
+   "icao_source": "AN6/I, AN11 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -29905,13 +29905,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Final Approach Segment (FAS)",
   "title": "Final Approach Segment (FAS)",
-  "text": "That segment of an instrument approach procedure in which alignment and descent for landing are accomplished. OPS/I,",
+  "text": "That segment of an instrument approach procedure in which alignment and descent for landing are accomplished.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 46,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN4, AN6/I, AN6/II, AN6/III, OPS/II",
+   "icao_source": "AN4, AN6/I, AN6/II, AN6/III, OPS/II OPS/I",
    "kind": "glossary_term"
   }
  },
@@ -30100,13 +30100,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Flight crew member",
   "title": "Flight crew member",
-  "text": "A licensed crew member charged with duties essential to the operation of an aircraft during a flight duty period. AN6/III, AN11,",
+  "text": "A licensed crew member charged with duties essential to the operation of an aircraft during a flight duty period.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 47,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN1, AN2, AN3, AN6/I, AN6/II, AN9, AN18, ATM",
+   "icao_source": "AN1, AN2, AN3, AN6/I, AN6/II, AN9, AN18, ATM AN6/III, AN11",
    "kind": "glossary_term"
   }
  },
@@ -30235,13 +30235,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Flight Level (FL)",
   "title": "Flight Level (FL)",
-  "text": "A surface of constant atmospheric pressure which is related to a specific pressure datum, 1 013.2 hectopascals (hpa), and is separated from other such surfaces by specific pressure intervals. Note 1.— A pressure type altimeter calibrated in accordance with the Standard Atmosphere: AN4, a) when set to a QNH altimeter setting, will indicate altitude; b) when set to a QFE altimeter setting, will indicate height above the QFE reference datum; c) when set to a pressure of 1 013.2 hPa, may be used to indicate flight levels. Note 2.— The terms “height” and “altitude”, used in Note 1 above, indicate altimetric rather than geometric heights and altitudes.",
+  "text": "A surface of constant atmospheric pressure which is related to a specific pressure datum, 1 013.2 hectopascals (hpa), and is separated from other such surfaces by specific pressure intervals. Note 1.— A pressure type altimeter calibrated in accordance with the Standard Atmosphere: a) when set to a QNH altimeter setting, will indicate altitude; b) when set to a QFE altimeter setting, will indicate height above the QFE reference datum; c) when set to a pressure of 1 013.2 hPa, may be used to indicate flight levels. Note 2.— The terms “height” and “altitude”, used in Note 1 above, indicate altimetric rather than geometric heights and altitudes.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 47,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN3, AN10/II, AN11, 9388, ATM, OPS/II",
+   "icao_source": "AN2, AN3, AN10/II, AN11, 9388, ATM, OPS/II AN4",
    "kind": "glossary_term"
   }
  },
@@ -30325,13 +30325,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Flight recorder",
   "title": "Flight recorder",
-  "text": "Any type of recorder installed in the aircraft for the purpose of complementing accident/incident investigation. AN6/III,",
+  "text": "Any type of recorder installed in the aircraft for the purpose of complementing accident/incident investigation.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 48,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/I, AN6/II, AN13",
+   "icao_source": "AN6/I, AN6/II, AN13 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -30730,13 +30730,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Free text message element",
   "title": "Free text message element",
-  "text": "Part of a message that does not conform to any standard message element in the PANS-ATM (Doc 4444).",
+  "text": "Part of a message that does not conform to any standard message element in the (Doc 4444).",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 50,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN10/II",
+   "icao_source": "AN10/II PANS-ATM",
    "kind": "glossary_term"
   }
  },
@@ -30880,13 +30880,13 @@
   "regulation": "CAR-DEF",
   "article_no": "General aviation operation",
   "title": "General aviation operation",
-  "text": "An aircraft operation other than a commercial air transport operation or an aerial work operation. AN6/III,",
+  "text": "An aircraft operation other than a commercial air transport operation or an aerial work operation.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 51,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/I, AN6/II, AN9, AN17",
+   "icao_source": "AN6/I, AN6/II, AN9, AN17 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -30925,13 +30925,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Geoid",
   "title": "Geoid",
-  "text": "The equipotential surface in the gravity field of the Earth, which coincides with the undisturbed mean sea level (MSL) extended continuously through the AN4, continents. Note.— The geoid is irregular in shape because of local gravitational AN15, disturbances (wind tides, salinity, current, etc.) and the direction of gravity is perpendicular to the geoid at every point.",
+  "text": "The equipotential surface in the gravity field of the Earth, which coincides with the undisturbed mean sea level (MSL) extended continuously through the continents. Note.— The geoid is irregular in shape because of local gravitational disturbances (wind tides, salinity, current, etc.) and the direction of gravity is perpendicular to the geoid at every point.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 51,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/I, AN14/II, OPS/II",
+   "icao_source": "AN14/I, AN14/II, OPS/II AN4 AN15",
    "kind": "glossary_term"
   }
  },
@@ -31210,13 +31210,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Ground-to-air communication",
   "title": "Ground-to-air communication",
-  "text": "One-way communication from stations or locations on the surface of the earth AN10/II, to aircraft.",
+  "text": "One-way communication from stations or locations on the surface of the earth to aircraft.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 52,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM",
+   "icao_source": "ATM AN10/II",
    "kind": "glossary_term"
   }
  },
@@ -31300,13 +31300,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Heading (HDG)",
   "title": "Heading (HDG)",
-  "text": "The direction in which the longitudinal axis of an aircraft is pointed, usually expressed in degrees from North (true, magnetic, compass or grid). OPS/I,",
+  "text": "The direction in which the longitudinal axis of an aircraft is pointed, usually expressed in degrees from North (true, magnetic, compass or grid).",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 53,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, ATM, OPS/II",
+   "icao_source": "AN2, ATM, OPS/II OPS/I",
    "kind": "glossary_term"
   }
  },
@@ -31375,13 +31375,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Height (HGT)",
   "title": "Height (HGT)",
-  "text": "The vertical distance of a level, a point, or an object considered as a point, measured from a specified datum. AN11,",
+  "text": "The vertical distance of a level, a point, or an object considered as a point, measured from a specified datum.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 53,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN3, AN4, AN6/I, AN10/I, AN10/II, AN15, ATM, OPS/I, OPS/II AN6/III, AN16/I, AN19, AN7",
+   "icao_source": "AN2, AN3, AN4, AN6/I, AN10/I, AN10/II, AN15, ATM, OPS/I, OPS/II AN6/III, AN16/I, AN19, AN7 AN11",
    "kind": "glossary_term"
   }
  },
@@ -31390,13 +31390,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Helicopter (HEL)",
   "title": "Helicopter (HEL)",
-  "text": "A heavier-than-air aircraft supported in flight chiefly by the reactions of the air AN8, on one or more power-driven rotors on substantially vertical axes.",
+  "text": "A heavier-than-air aircraft supported in flight chiefly by the reactions of the air on one or more power-driven rotors on substantially vertical axes.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 53,
   "is_definitions": true,
   "extra": {
-   "icao_source": "",
+   "icao_source": "AN8",
    "kind": "glossary_term"
   }
  },
@@ -31480,13 +31480,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Helicopter stand",
   "title": "Helicopter stand",
-  "text": "An aircraft stand which provides for parking a helicopter and where ground taxi operations are completed or where the helicopter touches down and lifts off for AN4, air taxi operations.",
+  "text": "An aircraft stand which provides for parking a helicopter and where ground taxi operations are completed or where the helicopter touches down and lifts off for air taxi operations.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 53,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/II",
+   "icao_source": "AN14/II AN4",
    "kind": "glossary_term"
   }
  },
@@ -31585,13 +31585,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Heliport reference point (HRP).",
   "title": "Heliport reference point (HRP).",
-  "text": "c) landing in 3D instrument approach operations, expressed in terms of visibility and/or runway visual range and decision altitude/height (DA/H) as appropriate to the type and/or category of the operation. The designated location of a heliport or a landing location. AN4,",
+  "text": "c) landing in 3D instrument approach operations, expressed in terms of visibility and/or runway visual range and decision altitude/height (DA/H) as appropriate to the type and/or category of the operation. The designated location of a heliport or a landing location.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 54,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/II",
+   "icao_source": "AN14/II AN4",
    "kind": "glossary_term"
   }
  },
@@ -31810,13 +31810,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Holding procedure",
   "title": "Holding procedure",
-  "text": "A predetermined manoeuvre which keeps an aircraft within a specified airspace while awaiting further clearance. OPS/I,",
+  "text": "A predetermined manoeuvre which keeps an aircraft within a specified airspace while awaiting further clearance.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 55,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN4, ATM, OPS/II",
+   "icao_source": "AN4, ATM, OPS/II OPS/I",
    "kind": "glossary_term"
   }
  },
@@ -31900,13 +31900,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Hot spot",
   "title": "Hot spot",
-  "text": "A location on an aerodrome movement area with a history or potential risk of collision or runway incursion, and where heightened attention by pilots/drivers AN4, is necessary.",
+  "text": "A location on an aerodrome movement area with a history or potential risk of collision or runway incursion, and where heightened attention by pilots/drivers is necessary.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 56,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/I",
+   "icao_source": "AN14/I AN4",
    "kind": "glossary_term"
   }
  },
@@ -31915,13 +31915,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Human Factors Principles",
   "title": "Human Factors Principles",
-  "text": "Principles which apply to \"aeronautical\" design, certification, training, operations and maintenance and which seek safe interface between the human and other system components by proper consideration to human performance. NOTE: For Security related word \"aeronautical\" is not included AN15,",
+  "text": "Principles which apply to \"aeronautical\" design, certification, training, operations and maintenance and which seek safe interface between the human and other system components by proper consideration to human performance. NOTE: For Security related word \"aeronautical\" is not included",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 56,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN3, AN4, AN6/I, AN8, AN10/I, AN10/IV, AN11, AN14/I, AN17,, ATM AN1, AN5, AN6/I, AN8, AN10/I, AN10/II, AN11, AN14/I, AN17",
+   "icao_source": "AN3, AN4, AN6/I, AN8, AN10/I, AN10/IV, AN11, AN14/I, AN17,, ATM AN1, AN5, AN6/I, AN8, AN10/I, AN10/II, AN11, AN14/I, AN17 AN15",
    "kind": "glossary_term"
   }
  },
@@ -31930,13 +31930,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Human performance",
   "title": "Human performance",
-  "text": "Human capabilities and limitations which have an impact on the safety and AN6/III, efficiency of aeronautical operations. NOTE: For security related (AN17) an impact on safety, security and efficiency of aeronautical operations.",
+  "text": "Human capabilities and limitations which have an impact on the safety and efficiency of aeronautical operations. NOTE: For security related (AN17) an impact on safety, security and efficiency of aeronautical operations.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 56,
   "is_definitions": true,
   "extra": {
-   "icao_source": "",
+   "icao_source": "AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -32170,13 +32170,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Independent parallel approaches",
   "title": "Independent parallel approaches",
-  "text": "Simultaneous approaches to parallel or near-parallel instrument runways where AN14/I, radar separation minima between aircraft on adjacent extended runway centre OPS/I, lines are not prescribed.",
+  "text": "Simultaneous approaches to parallel or near-parallel instrument runways where radar separation minima between aircraft on adjacent extended runway centre lines are not prescribed.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 57,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM, OPS/II",
+   "icao_source": "ATM, OPS/II AN14/I OPS/I",
    "kind": "glossary_term"
   }
  },
@@ -32185,13 +32185,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Independent parallel departures",
   "title": "Independent parallel departures",
-  "text": "Simultaneous departures from parallel or near-parallel instrument runways. OPS/I,",
+  "text": "Simultaneous departures from parallel or near-parallel instrument runways.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 57,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM, OPS/II",
+   "icao_source": "ATM, OPS/II OPS/I",
    "kind": "glossary_term"
   }
  },
@@ -32260,13 +32260,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Initial approach segment",
   "title": "Initial approach segment",
-  "text": "That segment of an instrument approach procedure between the initial approach fix and the intermediate fix or, where applicable, the final approach OPS/I, fix or point.",
+  "text": "That segment of an instrument approach procedure between the initial approach fix and the intermediate fix or, where applicable, the final approach fix or point.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 58,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN4, ATM, OPS/II",
+   "icao_source": "AN4, ATM, OPS/II OPS/I",
    "kind": "glossary_term"
   }
  },
@@ -32500,13 +32500,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Integrity classification (aeronautical data)",
   "title": "Integrity classification (aeronautical data)",
-  "text": "Classification based upon the potential risk resulting from the use of corrupted data. Aeronautical data is classified as: a) routine data: there is a very low probability when using corrupted routine data that the continued safe flight and landing of an aircraft would be severely at risk with the potential for catastrophe; b) essential data: there is a low probability when using corrupted essential data AN14/I, that the continued safe flight and landing of an aircraft would be severely at risk with the potential for catastrophe; and c) critical data: there is a high probability when using corrupted critical data that the continued safe flight and landing of an aircraft would be severely at risk with the potential for catastrophe.",
+  "text": "Classification based upon the potential risk resulting from the use of corrupted data. Aeronautical data is classified as: a) routine data: there is a very low probability when using corrupted routine data that the continued safe flight and landing of an aircraft would be severely at risk with the potential for catastrophe; b) essential data: there is a low probability when using corrupted essential data that the continued safe flight and landing of an aircraft would be severely at risk with the potential for catastrophe; and c) critical data: there is a high probability when using corrupted critical data that the continued safe flight and landing of an aircraft would be severely at risk with the potential for catastrophe.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 60,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN4, AN11, AN15",
+   "icao_source": "AN4, AN11, AN15 AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -32905,13 +32905,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Isolated aerodrome",
   "title": "Isolated aerodrome",
-  "text": "A destination aerodrome for which there is no destination alternate aerodrome AN6/I, suitable for a given aeroplane type.",
+  "text": "A destination aerodrome for which there is no destination alternate aerodrome suitable for a given aeroplane type.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 62,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/II",
+   "icao_source": "AN6/II AN6/I",
    "kind": "glossary_term"
   }
  },
@@ -33040,13 +33040,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Landing area",
   "title": "Landing area",
-  "text": "That part of a movement area intended for the landing or take-off of aircraft. AN14/I,",
+  "text": "That part of a movement area intended for the landing or take-off of aircraft.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 62,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN4, AN13, ATM",
+   "icao_source": "AN2, AN4, AN13, ATM AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -33070,13 +33070,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Landing Direction Indicator (LDI)",
   "title": "Landing Direction Indicator (LDI)",
-  "text": "A device to indicate visually the direction currently designated for landing and AN4, for take-off.",
+  "text": "A device to indicate visually the direction currently designated for landing and for take-off.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 62,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/I",
+   "icao_source": "AN14/I AN4",
    "kind": "glossary_term"
   }
  },
@@ -33220,13 +33220,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Large aeroplane",
   "title": "Large aeroplane",
-  "text": "An aeroplane of a maximum certificated take-off mass of over 5700 kg. AN6/I,",
+  "text": "An aeroplane of a maximum certificated take-off mass of over 5700 kg.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 63,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/II",
+   "icao_source": "AN6/II AN6/I",
    "kind": "glossary_term"
   }
  },
@@ -33550,13 +33550,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Longitudinal axis of the aeroplane",
   "title": "Longitudinal axis of the aeroplane",
-  "text": "A selected axis parallel to the direction of flight at a normal cruising speed, and AN6/I, passing through the centre of gravity of the aeroplane.",
+  "text": "A selected axis parallel to the direction of flight at a normal cruising speed, and passing through the centre of gravity of the aeroplane.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 64,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/II",
+   "icao_source": "AN6/II AN6/I",
    "kind": "glossary_term"
   }
  },
@@ -33700,13 +33700,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Maintenance Applicable until 4 November 2020",
   "title": "Maintenance Applicable until 4 November 2020",
-  "text": "The performance of tasks required to ensure the continuing airworthiness of an aircraft, including any one or combination of overhaul, inspection, replacement, defect rectification, and the embodiment of a modification or repair. AN6/III,",
+  "text": "The performance of tasks required to ensure the continuing airworthiness of an aircraft, including any one or combination of overhaul, inspection, replacement, defect rectification, and the embodiment of a modification or repair.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 65,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN1, AN6/I, AN6/II, AN8",
+   "icao_source": "AN1, AN6/I, AN6/II, AN8 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -33715,13 +33715,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Maintenance Applicable as of 5 November 2020",
   "title": "Maintenance Applicable as of 5 November 2020",
-  "text": "The performance of tasks on an aircraft, engine, propeller or associated part required to ensure the continuing airworthiness of an aircraft, engine, propeller or associated part including any one or combination of overhaul, inspection, replacement, defect rectification, and the embodiment of a modification or AN6/III, repair",
+  "text": "The performance of tasks on an aircraft, engine, propeller or associated part required to ensure the continuing airworthiness of an aircraft, engine, propeller or associated part including any one or combination of overhaul, inspection, replacement, defect rectification, and the embodiment of a modification or repair",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 65,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/I, AN6/II, AN8",
+   "icao_source": "AN6/I, AN6/II, AN8 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -33775,13 +33775,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Maintenance organization’s procedures manual Applicable until 4 November 2020",
   "title": "Maintenance organization’s procedures manual Applicable until 4 November 2020",
-  "text": "A document endorsed by the head of the maintenance organization which details the maintenance organization’s structure and management responsibilities, scope of work, description of facilities, AN6/III, maintenance procedures and quality assurance or inspection systems.",
+  "text": "A document endorsed by the head of the maintenance organization which details the maintenance organization’s structure and management responsibilities, scope of work, description of facilities, maintenance procedures and quality assurance or inspection systems.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 65,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/I, AN8",
+   "icao_source": "AN6/I, AN8 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -33835,13 +33835,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Maintenance release Applicable as of 5 November 2020",
   "title": "Maintenance release Applicable as of 5 November 2020",
-  "text": "A document which contains a certification confirming that the maintenance work to which it relates has been completed in a satisfactory manner in accordance with appropriate airworthiness AN6/III, requirements.",
+  "text": "A document which contains a certification confirming that the maintenance work to which it relates has been completed in a satisfactory manner in accordance with appropriate airworthiness requirements.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 65,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/I, AN6/II, AN8",
+   "icao_source": "AN6/I, AN6/II, AN8 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -33985,13 +33985,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Maximum mass",
   "title": "Maximum mass",
-  "text": "Maximum certificated take-off mass. AN6/III,",
+  "text": "Maximum certificated take-off mass.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 66,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/I, AN13",
+   "icao_source": "AN6/I, AN13 AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -34225,13 +34225,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Meteorological office (MET)",
   "title": "Meteorological office (MET)",
-  "text": "(Office) An office designated to provide meteorological service for international AN3, air navigation.",
+  "text": "(Office) An office designated to provide meteorological service for international air navigation.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 67,
   "is_definitions": true,
   "extra": {
-   "icao_source": "11, ATM",
+   "icao_source": "11, ATM AN3",
    "kind": "glossary_term"
   }
  },
@@ -34810,13 +34810,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Next data authority",
   "title": "Next data authority",
-  "text": "The ground system so designated by the current data authority through which AN10/II, an onward transfer of communications and control can take place.",
+  "text": "The ground system so designated by the current data authority through which an onward transfer of communications and control can take place.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 70,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM",
+   "icao_source": "ATM AN10/II",
    "kind": "glossary_term"
   }
  },
@@ -35125,13 +35125,13 @@
   "regulation": "CAR-DEF",
   "article_no": "NOTAM (Notice to airmen)",
   "title": "NOTAM (Notice to airmen)",
-  "text": "A notice distributed by means of telecommunication containing information concerning the establishment, condition or change in any aeronautical facility, AN11, service, procedure or hazard, the timely knowledge of which is essential to personnel concerned with flight operations.",
+  "text": "A notice distributed by means of telecommunication containing information concerning the establishment, condition or change in any aeronautical facility, service, procedure or hazard, the timely knowledge of which is essential to personnel concerned with flight operations.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 72,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN10/II, AN15, ATM",
+   "icao_source": "AN10/II, AN15, ATM AN11",
    "kind": "glossary_term"
   }
  },
@@ -35260,13 +35260,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Obstacle Clearance Altitude (OCA) or Obstacle Clearance Height (OCH)",
   "title": "Obstacle Clearance Altitude (OCA) or Obstacle Clearance Height (OCH)",
-  "text": "The lowest altitude or the lowest height above the elevation of the relevant runway threshold or the aerodrome elevation as applicable, used in establishing compliance with appropriate obstacle clearance criteria. NOTE: Obstacle clearance altitude is referenced to mean sea level and obstacle clearance height is referenced to the threshold elevation or in the case of non- precision approaches to the aerodrome elevation or the threshold elevation if that is more than 2 m (7 ft) below the aerodrome elevation. An obstacle AN6/III, clearance height for a circling approach is referenced to the aerodrome elevation. NOTE: For convenience when both expressions are used they may be written in the form “obstacle clearance altitude/ height” and abbreviated “OCA/H”.",
+  "text": "The lowest altitude or the lowest height above the elevation of the relevant runway threshold or the aerodrome elevation as applicable, used in establishing compliance with appropriate obstacle clearance criteria. NOTE: Obstacle clearance altitude is referenced to mean sea level and obstacle clearance height is referenced to the threshold elevation or in the case of non- precision approaches to the aerodrome elevation or the threshold elevation if that is more than 2 m (7 ft) below the aerodrome elevation. An obstacle clearance height for a circling approach is referenced to the aerodrome elevation. NOTE: For convenience when both expressions are used they may be written in the form “obstacle clearance altitude/ height” and abbreviated “OCA/H”.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 72,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN4, AN6/I, AN6/II, ATM,",
+   "icao_source": "AN4, AN6/I, AN6/II, ATM, AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -35275,13 +35275,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Obstacle Free Zone (OFZ)",
   "title": "Obstacle Free Zone (OFZ)",
-  "text": "The airspace above the inner approach surface, inner transitional surfaces, and balked landing surface and that portion of the strip bounded by these surfaces, AN4, which is not penetrated by any fixed obstacle other than a low-mass and frangibly mounted one required for air navigation purposes.",
+  "text": "The airspace above the inner approach surface, inner transitional surfaces, and balked landing surface and that portion of the strip bounded by these surfaces, which is not penetrated by any fixed obstacle other than a low-mass and frangibly mounted one required for air navigation purposes.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 72,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/I,",
+   "icao_source": "AN14/I, AN4",
    "kind": "glossary_term"
   }
  },
@@ -35560,13 +35560,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Operational control",
   "title": "Operational control",
-  "text": "The exercise of authority over the initiation, continuation, diversion or termination of a flight in the interest of the safety of the aircraft and the regularity and efficiency of the flight. AN6/III,",
+  "text": "The exercise of authority over the initiation, continuation, diversion or termination of a flight in the interest of the safety of the aircraft and the regularity and efficiency of the flight.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 74,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN3, AN6/I, AN6/II, ATM",
+   "icao_source": "AN3, AN6/I, AN6/II, ATM AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -35605,13 +35605,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Operational flight plan",
   "title": "Operational flight plan",
-  "text": "The operator’s plan for the safe conduct of the flight based on considerations of aeroplane performance, other operating limitations and relevant expected conditions on the route to be followed and at the aerodromes concerned. AN6/III,",
+  "text": "The operator’s plan for the safe conduct of the flight based on considerations of aeroplane performance, other operating limitations and relevant expected conditions on the route to be followed and at the aerodromes concerned.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 74,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN3, AN6/I, AN6/II, ATM",
+   "icao_source": "AN3, AN6/I, AN6/II, ATM AN6/III",
    "kind": "glossary_term"
   }
  },
@@ -35680,13 +35680,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Operator (OPR)",
   "title": "Operator (OPR)",
-  "text": "Or aircraft operating agency/ AOC/ aircraft operator / Air operator: A person, organisation or enterprise engaged in or offering to engage in an aircraft operation. AN6/III, Note.— In the context of remotely piloted aircraft, an aircraft operation includes AN11, the remotely piloted aircraft system.",
+  "text": "Or aircraft operating agency/ AOC/ aircraft operator / Air operator: A person, organisation or enterprise engaged in or offering to engage in an aircraft operation. AN6/III, Note.— In the context of remotely piloted aircraft, an aircraft operation includes the remotely piloted aircraft system.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 74,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN3, AN6/I, AN6/II, AN9, AN12, AN13, AN16/IV, AN18",
+   "icao_source": "AN2, AN3, AN6/I, AN6/II, AN9, AN12, AN13, AN16/IV, AN18 AN11",
    "kind": "glossary_term"
   }
  },
@@ -36505,13 +36505,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Powered-lift",
   "title": "Powered-lift",
-  "text": "A heavier-than-air aircraft capable of vertical take-off, vertical landing, and low speed flight that depends principally on engine-driven lift devices or engine AN1, thrust for the lift during these flight regimes and on non-rotating aerofoil(s) for lift during horizontal flight.",
+  "text": "A heavier-than-air aircraft capable of vertical take-off, vertical landing, and low speed flight that depends principally on engine-driven lift devices or engine thrust for the lift during these flight regimes and on non-rotating aerofoil(s) for lift during horizontal flight.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 78,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN16/I",
+   "icao_source": "AN16/I AN1",
    "kind": "glossary_term"
   }
  },
@@ -36610,13 +36610,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Precision Approach Radar (PAR)",
   "title": "Precision Approach Radar (PAR)",
-  "text": "Primary radar equipment used to determine the position of an aircraft during final approach, in terms of lateral and vertical deviations relative to a nominal AN10/I, approach path, and in range relative to touchdown.",
+  "text": "Primary radar equipment used to determine the position of an aircraft during final approach, in terms of lateral and vertical deviations relative to a nominal approach path, and in range relative to touchdown.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 79,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM",
+   "icao_source": "ATM AN10/I",
    "kind": "glossary_term"
   }
  },
@@ -36730,13 +36730,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Pressure-altitude",
   "title": "Pressure-altitude",
-  "text": "An atmospheric pressure expressed in terms of altitude which corresponds to that pressure in the Standard Atmosphere. AN8,",
+  "text": "An atmospheric pressure expressed in terms of altitude which corresponds to that pressure in the Standard Atmosphere.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 79,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN3, AN6/I, AN10/I",
+   "icao_source": "AN3, AN6/I, AN10/I AN8",
    "kind": "glossary_term"
   }
  },
@@ -38410,13 +38410,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Required Communication Performance",
   "title": "Required Communication Performance",
-  "text": "A statement of the performance requirements for operational communication in support of specific ATM functions.",
+  "text": "A statement of the performance requirements for operational communication in support of specific functions.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 86,
   "is_definitions": true,
   "extra": {
-   "icao_source": "",
+   "icao_source": "ATM",
    "kind": "glossary_term"
   }
  },
@@ -38905,13 +38905,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Runway strip",
   "title": "Runway strip",
-  "text": "A defined area including the runway and stopway, if provided, intended: a). to reduce the risk of damage to aircraft running off a runway; and AN4, b). to protect aircraft flying over it during take-off or landing operations.",
+  "text": "A defined area including the runway and stopway, if provided, intended: a). to reduce the risk of damage to aircraft running off a runway; and b). to protect aircraft flying over it during take-off or landing operations.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 89,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/I",
+   "icao_source": "AN14/I AN4",
    "kind": "glossary_term"
   }
  },
@@ -38965,13 +38965,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Runway Visual Range (RVR)",
   "title": "Runway Visual Range (RVR)",
-  "text": "The range over which the pilot of an aircraft on the centre line of a runway can see the runway surface markings or the lights delineating the runway or AN11, identifying its centre line.",
+  "text": "The range over which the pilot of an aircraft on the centre line of a runway can see the runway surface markings or the lights delineating the runway or identifying its centre line.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 89,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/III, AN14/I",
+   "icao_source": "AN6/III, AN14/I AN11",
    "kind": "glossary_term"
   }
  },
@@ -38980,13 +38980,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Runway visual range (RVR)",
   "title": "Runway visual range (RVR)",
-  "text": "The range over which the pilot of an aircraft on the centre line of a runway can see the runway surface markings or the lights delineating the runway or identifying its centre line. AN14/I,",
+  "text": "The range over which the pilot of an aircraft on the centre line of a runway can see the runway surface markings or the lights delineating the runway or identifying its centre line.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 89,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN3, AN4, AN6/I, AN6/II, AN6/III,",
+   "icao_source": "AN3, AN4, AN6/I, AN6/II, AN6/III, AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -38995,13 +38995,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Runway, RWY",
   "title": "Runway, RWY",
-  "text": "A defined rectangular area on a land aerodrome prepared for the landing and take-off of aircraft. AN14/I,",
+  "text": "A defined rectangular area on a land aerodrome prepared for the landing and take-off of aircraft.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 90,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN10/I, AN11, ATM AN2, AN3, AN4, AN11, ATM",
+   "icao_source": "AN10/I, AN11, ATM AN2, AN3, AN4, AN11, ATM AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -39715,13 +39715,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Segregated parallel operations",
   "title": "Segregated parallel operations",
-  "text": "Simultaneous operations on parallel or near-parallel instrument runways in AN14/I, which one runway is used exclusively for approaches and the other runway is OPS/I, used exclusively for departures.",
+  "text": "Simultaneous operations on parallel or near-parallel instrument runways in AN14/I, which one runway is used exclusively for approaches and the other runway is used exclusively for departures.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 93,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM, OPS/II",
+   "icao_source": "ATM, OPS/II OPS/I",
    "kind": "glossary_term"
   }
  },
@@ -39820,13 +39820,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Serious injury",
   "title": "Serious injury",
-  "text": "An injury which is sustained by a person in an accident and which: a) requires hospitalization for more than 48 hours, commencing within seven days from the date the injury was received; or b) results in a fracture of any bone (except simple fractures of fingers, toes or nose); or AN13, c) involves lacerations which cause severe haemorrhage, nerve, muscle or tendon damage; or d) involves injury to any internal organ; or e) involves second or third degree burns, or any burns affecting more than 5 per cent of the body surface; or f) involves verified exposure to infectious substances or injurious radiation.",
+  "text": "An injury which is sustained by a person in an accident and which: a) requires hospitalization for more than 48 hours, commencing within seven days from the date the injury was received; or b) results in a fracture of any bone (except simple fractures of fingers, toes or nose); or c) involves lacerations which cause severe haemorrhage, nerve, muscle or tendon damage; or d) involves injury to any internal organ; or e) involves second or third degree burns, or any burns affecting more than 5 per cent of the body surface; or f) involves verified exposure to infectious substances or injurious radiation.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 94,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN 18, AN19",
+   "icao_source": "AN 18, AN19 AN13",
    "kind": "glossary_term"
   }
  },
@@ -39910,13 +39910,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Shoulder",
   "title": "Shoulder",
-  "text": "An area adjacent to the edge of a pavement so prepared as to provide a AN4, transition between the pavement and the adjacent surface.",
+  "text": "An area adjacent to the edge of a pavement so prepared as to provide a transition between the pavement and the adjacent surface.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 94,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/I",
+   "icao_source": "AN14/I AN4",
    "kind": "glossary_term"
   }
  },
@@ -40135,13 +40135,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Slush",
   "title": "Slush",
-  "text": "Water-saturated snow which with a heel-and-toe slap-down motion against the AN14/I, ground will be displaced with a splatter; specific gravity: 0.5 up to 0.8.",
+  "text": "Water-saturated snow which with a heel-and-toe slap-down motion against the ground will be displaced with a splatter; specific gravity: 0.5 up to 0.8.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 95,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM",
+   "icao_source": "ATM AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -40450,13 +40450,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Standard message element",
   "title": "Standard message element",
-  "text": "Part of a message defined in the PANS-ATM (Doc 4444) in terms of display format, intended use and attributes.",
+  "text": "Part of a message defined in the (Doc 4444) in terms of display format, intended use and attributes.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 97,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN10/II",
+   "icao_source": "AN10/II PANS-ATM",
    "kind": "glossary_term"
   }
  },
@@ -40510,13 +40510,13 @@
   "regulation": "CAR-DEF",
   "article_no": "State Safety programme",
   "title": "State Safety programme",
-  "text": "An integrated set of regulations and activities aimed at improving safety. AN11,",
+  "text": "An integrated set of regulations and activities aimed at improving safety.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 97,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN1, AN6/I, AN6/III, AN14/I",
+   "icao_source": "AN1, AN6/I, AN6/III, AN14/I AN11",
    "kind": "glossary_term"
   }
  },
@@ -40645,13 +40645,13 @@
   "regulation": "CAR-DEF",
   "article_no": "State of the Operator",
   "title": "State of the Operator",
-  "text": "The State in which the operator’s principal place of business is located or, if there is no such place of business, the operator’s permanent residence. AN13,",
+  "text": "The State in which the operator’s principal place of business is located or, if there is no such place of business, the operator’s permanent residence.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 98,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/I, AN6/III, AN18, AN19, 8973",
+   "icao_source": "AN6/I, AN6/III, AN18, AN19, 8973 AN13",
    "kind": "glossary_term"
   }
  },
@@ -40780,13 +40780,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Stopway (SWY)",
   "title": "Stopway (SWY)",
-  "text": "A defined rectangular area on the ground at the end of take-off run available AN4, prepared as a suitable area in which an aircraft can be stopped in the case of an abandoned take-off.",
+  "text": "A defined rectangular area on the ground at the end of take-off run available prepared as a suitable area in which an aircraft can be stopped in the case of an abandoned take-off.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 98,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN14/I, ATM",
+   "icao_source": "AN14/I, ATM AN4",
    "kind": "glossary_term"
   }
  },
@@ -41320,13 +41320,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Taxiway (TWY)",
   "title": "Taxiway (TWY)",
-  "text": "A defined path on a land aerodrome established for the taxiing of aircraft and intended to provide a link between one part of the aerodrome and another, including: a) Aircraft stand taxilane. A portion of an apron designated as a taxiway and intended to provide access to aircraft stands only. b) Apron taxiway. A portion of a taxiway system located on an apron and AN14/I, intended to provide a through taxi route across the apron. c) Rapid exit taxiway. A taxiway connected to a runway at an acute angle and designed to allow landing aeroplanes to turn off at higher speeds than are achieved on other exit taxiways thereby minimizing runway occupancy times.",
+  "text": "A defined path on a land aerodrome established for the taxiing of aircraft and intended to provide a link between one part of the aerodrome and another, including: a) Aircraft stand taxilane. A portion of an apron designated as a taxiway and intended to provide access to aircraft stands only. b) Apron taxiway. A portion of a taxiway system located on an apron and intended to provide a through taxi route across the apron. c) Rapid exit taxiway. A taxiway connected to a runway at an acute angle and designed to allow landing aeroplanes to turn off at higher speeds than are achieved on other exit taxiways thereby minimizing runway occupancy times.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 101,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN4, ATM",
+   "icao_source": "AN2, AN4, ATM AN14/I",
    "kind": "glossary_term"
   }
  },
@@ -41620,13 +41620,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Threshold (THR)",
   "title": "Threshold (THR)",
-  "text": "The beginning of that portion of the runway usable for landing. AN14/I, OPS/I,",
+  "text": "The beginning of that portion of the runway usable for landing.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 103,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN3, AN4, ATM, OPS/II",
+   "icao_source": "AN3, AN4, ATM, OPS/II AN14/I, OPS/I",
    "kind": "glossary_term"
   }
  },
@@ -41770,13 +41770,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Total Vertical Error (TVE)",
   "title": "Total Vertical Error (TVE)",
-  "text": "The vertical geometric difference between the actual pressure altitude flown by AN6/I, an aircraft and its assigned pressure altitude (flight level).",
+  "text": "The vertical geometric difference between the actual pressure altitude flown by an aircraft and its assigned pressure altitude (flight level).",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 103,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/II",
+   "icao_source": "AN6/II AN6/I",
    "kind": "glossary_term"
   }
  },
@@ -41785,13 +41785,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Touchdown",
   "title": "Touchdown",
-  "text": "The point where the nominal glide path intercepts the runway. Note.— “Touchdown” as defined above is only a datum and is not necessarily AN10/I, the actual point at which the aircraft will touch the runway.",
+  "text": "The point where the nominal glide path intercepts the runway. Note.— “Touchdown” as defined above is only a datum and is not necessarily the actual point at which the aircraft will touch the runway.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 103,
   "is_definitions": true,
   "extra": {
-   "icao_source": "ATM",
+   "icao_source": "ATM AN10/I",
    "kind": "glossary_term"
   }
  },
@@ -41860,13 +41860,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Track (TR) / flight track/ ground track",
   "title": "Track (TR) / flight track/ ground track",
-  "text": "The projection on the earth’s surface of the path of an aircraft, the direction of which path at any point is usually expressed in degrees from North (true, magnetic or grid). OPS/I,",
+  "text": "The projection on the earth’s surface of the path of an aircraft, the direction of which path at any point is usually expressed in degrees from North (true, magnetic or grid).",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 104,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN2, AN4, AN11, ATM, OPS/II",
+   "icao_source": "AN2, AN4, AN11, ATM, OPS/II OPS/I",
    "kind": "glossary_term"
   }
  },
@@ -42220,13 +42220,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Type Certificate (TC)",
   "title": "Type Certificate (TC)",
-  "text": "A document issued by a Contracting State to define the design of an aircraft type and to certify that this design meets the appropriate airworthiness AN8, requirements of that State. Note.— In some Contracting States a document equivalent to a type certificate may be issued for an engine or propeller type.",
+  "text": "A document issued by a Contracting State to define the design of an aircraft type and to certify that this design meets the appropriate airworthiness requirements of that State. Note.— In some Contracting States a document equivalent to a type certificate may be issued for an engine or propeller type.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 105,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN16/I, AN16/II, AN16/III",
+   "icao_source": "AN16/I, AN16/II, AN16/III AN8",
    "kind": "glossary_term"
   }
  },
@@ -42340,13 +42340,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Uncertainty Phase (INCERFA)",
   "title": "Uncertainty Phase (INCERFA)",
-  "text": "A situation wherein uncertainty exists as to the safety of an aircraft and its AN11, occupants.",
+  "text": "A situation wherein uncertainty exists as to the safety of an aircraft and its occupants.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 106,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN12, ATM",
+   "icao_source": "AN12, ATM AN11",
    "kind": "glossary_term"
   }
  },
@@ -42385,13 +42385,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Under way",
   "title": "Under way",
-  "text": "An aeroplane on the surface of the water is ‘under way’ when it is not aground AN6/I, or moored to the ground or to any fixed object on the land or in the water.",
+  "text": "An aeroplane on the surface of the water is ‘under way’ when it is not aground or moored to the ground or to any fixed object on the land or in the water.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 106,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/II",
+   "icao_source": "AN6/II AN6/I",
    "kind": "glossary_term"
   }
  },
@@ -42790,13 +42790,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Visible",
   "title": "Visible",
-  "text": "Visible on a dark night with a clear atmosphere. AN6/I,",
+  "text": "Visible on a dark night with a clear atmosphere.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 108,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN6/II",
+   "icao_source": "AN6/II AN6/I",
    "kind": "glossary_term"
   }
  },
@@ -42910,13 +42910,13 @@
   "regulation": "CAR-DEF",
   "article_no": "Voice-Automatic Terminal Information Service (Voice-ATIS)",
   "title": "Voice-Automatic Terminal Information Service (Voice-ATIS)",
-  "text": "The provision of ATIS by means of continuous and repetitive voice broadcasts. AN11,",
+  "text": "The provision of ATIS by means of continuous and repetitive voice broadcasts.",
   "lang": "en",
   "source_file": "CAR-DEF – DEFINITIONS – ISSUE 02.pdf",
   "page": 108,
   "is_definitions": true,
   "extra": {
-   "icao_source": "AN10/III, AN15, ATM",
+   "icao_source": "AN10/III, AN15, ATM AN11",
    "kind": "glossary_term"
   }
  },
