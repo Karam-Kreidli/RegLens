@@ -1,14 +1,33 @@
 [
  {
-  "id": "CAR-DEF|2",
+  "id": "CAR-DEF|Operator",
   "regulation": "CAR-DEF",
-  "article_no": "2",
-  "title": "Definitions",
-  "text": "\"Operator\" means a person, organisation or enterprise engaged in or offering to engage in an aircraft operation.\n\"Occurrence\" means any safety-related event which endangers or could endanger an aircraft, its occupants or any other person.",
+  "article_no": "Operator",
+  "title": "Operator",
+  "text": "A person, organisation or enterprise engaged in or offering to engage in an aircraft operation.",
   "lang": "en",
   "source_file": "mock",
-  "page": null,
-  "is_definitions": true
+  "page": 74,
+  "is_definitions": true,
+  "extra": {
+   "icao_source": "AN6/I",
+   "kind": "glossary_term"
+  }
+ },
+ {
+  "id": "CAR-DEF|Occurrence",
+  "regulation": "CAR-DEF",
+  "article_no": "Occurrence",
+  "title": "Occurrence",
+  "text": "Any safety-related event which endangers or could endanger an aircraft, its occupants or any other person.",
+  "lang": "en",
+  "source_file": "mock",
+  "page": 73,
+  "is_definitions": true,
+  "extra": {
+   "icao_source": "AN13",
+   "kind": "glossary_term"
+  }
  },
  {
   "id": "CAR-OPS|2",
@@ -19,7 +38,8 @@
   "lang": "en",
   "source_file": "mock",
   "page": null,
-  "is_definitions": true
+  "is_definitions": true,
+  "extra": {}
  },
  {
   "id": "CAR-OPS|3",
@@ -30,7 +50,8 @@
   "lang": "en",
   "source_file": "mock",
   "page": null,
-  "is_definitions": false
+  "is_definitions": false,
+  "extra": {}
  },
  {
   "id": "CAR-OPS|4",
@@ -41,7 +62,8 @@
   "lang": "en",
   "source_file": "mock",
   "page": null,
-  "is_definitions": false
+  "is_definitions": false,
+  "extra": {}
  },
  {
   "id": "CAR-OPS|5",
@@ -52,7 +74,8 @@
   "lang": "en",
   "source_file": "mock",
   "page": null,
-  "is_definitions": false
+  "is_definitions": false,
+  "extra": {}
  },
  {
   "id": "CAR-OPS|6",
@@ -63,7 +86,8 @@
   "lang": "en",
   "source_file": "mock",
   "page": null,
-  "is_definitions": false
+  "is_definitions": false,
+  "extra": {}
  },
  {
   "id": "CAR-AIR|2",
@@ -74,7 +98,8 @@
   "lang": "en",
   "source_file": "mock",
   "page": null,
-  "is_definitions": true
+  "is_definitions": true,
+  "extra": {}
  },
  {
   "id": "CAR-AIR|3",
@@ -85,7 +110,8 @@
   "lang": "en",
   "source_file": "mock",
   "page": null,
-  "is_definitions": false
+  "is_definitions": false,
+  "extra": {}
  },
  {
   "id": "CAR-AIR|4",
@@ -96,7 +122,8 @@
   "lang": "en",
   "source_file": "mock",
   "page": null,
-  "is_definitions": false
+  "is_definitions": false,
+  "extra": {}
  },
  {
   "id": "CAR-AIR|5",
@@ -107,7 +134,8 @@
   "lang": "en",
   "source_file": "mock",
   "page": null,
-  "is_definitions": false
+  "is_definitions": false,
+  "extra": {}
  },
  {
   "id": "CAR-AIR|6",
@@ -118,7 +146,8 @@
   "lang": "en",
   "source_file": "mock",
   "page": null,
-  "is_definitions": false
+  "is_definitions": false,
+  "extra": {}
  },
  {
   "id": "CAR-AOC|2",
@@ -129,6 +158,7 @@
   "lang": "ar",
   "source_file": "mock",
   "page": null,
-  "is_definitions": false
+  "is_definitions": false,
+  "extra": {}
  }
 ]

@@ -34,12 +34,12 @@
   }
  },
  {
-  "id": "divergent_definition:CAR-DEF|2+CAR-OPS|2",
+  "id": "divergent_definition:CAR-DEF|Operator+CAR-OPS|2",
   "type": "divergent_definition",
   "severity": "high",
   "article_ids": [
    "CAR-OPS|2",
-   "CAR-DEF|2"
+   "CAR-DEF|Operator"
   ],
   "evidence": [
    {
@@ -47,11 +47,11 @@
     "quote": "\"Operator\" means any person or company that operates an aircraft for commercial air transport."
    },
    {
-    "article_id": "CAR-DEF|2",
-    "quote": "\"Operator\" means a person, organisation or enterprise engaged in or offering to engage in an aircraft operation."
+    "article_id": "CAR-DEF|Operator",
+    "quote": "A person, organisation or enterprise engaged in or offering to engage in an aircraft operation."
    }
   ],
-  "summary": "\"Operator\" is defined differently in CAR-OPS Art.2 and CAR-DEF Art.2",
+  "summary": "\"Operator\" is defined differently in CAR-OPS Art.2 and CAR-DEF (term \"Operator\")",
   "recommendation": "harmonize_wording",
   "rationale": "CAR-DEF is the reference for definitions; align the CAR-OPS definition or justify a sector-specific meaning.",
   "detector": "similarity",

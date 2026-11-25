@@ -27,6 +27,19 @@ Each person commits only their own files. The shared formats and function signat
 | P4 · App | `app.py` |
 | P5 · AI | `ai_assist.py`, `prompts/` |
 
-Test data: `data/mock_articles.json` and `data/mock_findings.json` (fictional, for testing only). Put the real regulation files in `data/raw/`.
+Test data: `data/mock_articles.json` and `data/mock_findings.json` (fictional, for testing only).
+
+## Real data (Phase 2: CAR I + CAR IX)
+
+Download from https://www.gcaa.gov.ae/en/epublication/civil-aviation-regulations/ into `data/raw/`, keeping the original file names:
+
+| RegLens name | GCAA file | Folder |
+|---|---|---|
+| `CAR-DEF` | CAR-DEF – DEFINITIONS – ISSUE 02.pdf | CAR I - DEFINITIONS and BASIC REGULATION |
+| `CAR-BR` | CAR-BR - ISSUE 02.pdf | CAR I - DEFINITIONS and BASIC REGULATION |
+| `CAR-ADR` | CAR ADR- AERODROMES - ISSUE 11.pdf | CAR IX - AERODROMES REGULATIONS |
+| `CAR-AGA-PART-ADR` | CAR-AGA - PART-ADR - ISSUE 02.pdf | CAR IX → CAR AGA - AERODROMES AND GROUND AIDS |
+
+CAR-DEF is a glossary table; `ingest.py` turns each term into one article (`CAR-DEF|Apron (APN)`). Needs `pdfplumber`.
 
 Optional: `data/regulations.csv` with columns `file,regulation` overrides the regulation name taken from each file name.
