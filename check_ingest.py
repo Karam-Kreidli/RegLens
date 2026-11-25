@@ -11,7 +11,7 @@ import re
 import sys
 from collections import Counter
 
-EXPECTED = ["CAR-DEF", "CAR-BR", "CAR-ADR", "CAR-AGA-PART-ADR"]
+EXPECTED = ["CAR-DEF", "CAR-BR", "CAR-AGA-PART-ADR"]  # + CAR-ADR if Issue 11 is loaded
 results = []
 
 
