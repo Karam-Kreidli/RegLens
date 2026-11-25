@@ -407,7 +407,10 @@ def _sentences(text: str) -> list[str]:
         start = boundary.end()
     if text[start:].strip():
         result.append(text[start:].strip())
-    return result
+    substantive = [sentence for sentence in result
+                   if len(re.findall(r"[^\W_]+", sentence)) >= 5 and not sentence.isupper()]
+    # Exact headings/conjunctions otherwise win cosine=1 over the real obligation.
+    return substantive or [max(result, key=len)]
 
 
 def _modal_view(text):
@@ -440,6 +443,19 @@ def _obligation_change(left, right):
                 continue
             modal_b = modals_b.get(block.b + position - block.a)
             if modal_b and (modal_a["strong"] != modal_b["strong"] or modal_a["negative"] != modal_b["negative"]):
+                other = block.b + position - block.a
+
+                def tail(tokens, start):
+                    words = []
+                    for token in tokens[start + 1:start + 9]:
+                        if token == "zzmodalmarkerzz":
+                            break
+                        words.append(token)
+                    return words
+
+                left_tail, right_tail = tail(a, position), tail(b, other)
+                if not left_tail or not right_tail or SequenceMatcher(None, left_tail, right_tail, autojunk=False).ratio() < 0.55:
+                    continue
                 return {
                     "kind": "obligation_negation" if modal_a["negative"] != modal_b["negative"] else "obligation_strength",
                     "modal_a": modal_a["modal"], "modal_b": modal_b["modal"],
@@ -959,6 +975,18 @@ def _self_test(mock_articles: list[Article]) -> bool:
             self.assertEqual(finding["recommendation"], "harmonize_wording")
             self.assertEqual(_thresholds({"dup": "bad"}), (0.85, 0.60))
             self.assertEqual(_limit({"max_findings_per_type": -1}), 300)
+
+        def test_modals_must_align_to_the_same_predicate(self):
+            left = "The safety Post Holder and quality Post Holder should be senior management positions and should not report to the operations Post Holder."
+            right = "The Safety Post Holder and Quality Post Holder should not report to the Operations Post Holder."
+            self.assertIsNone(_obligation_change(left, right))
+            self.assertIsNotNone(_obligation_change(left, left.replace("should not report", "should report")))
+
+        def test_evidence_avoids_headings_and_conjunctions(self):
+            text = "ATTENDANCE AT AUDITS\n(a) The operator shall provide access to all records and documents relevant to the inspection of the aircraft.\nand\n(b) The operator shall assist the inspectors during all audits."
+            finding = run([article("CAR-A", text), article("CAR-B", text.replace("all audits", "periodic audits"))])[0]
+            self.assertTrue(all("shall" in ev["quote"] for ev in finding["evidence"]))
+            self.assertTrue(all(len(ev["quote"].split()) >= 5 for ev in finding["evidence"]))
 
     suite = unittest.defaultTestLoader.loadTestsFromTestCase(SimilarityTests)
     return unittest.TextTestRunner(verbosity=2).run(suite).wasSuccessful()
